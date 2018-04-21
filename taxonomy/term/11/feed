@@ -1,0 +1,2063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://devopera.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>devopera - dorepos</title>
+ <link>http://devopera.com/module/dorepos</link>
+ <description>The dorepos module checks out working copies of svn or git repositories out onto the server.
+Puppet Forge module | Open-source project on GitHub | Issue tracker
+ 
+
+
+</description>
+ <language>en</language>
+<item>
+ <title>Redmine (Ruby on Rails)</title>
+ <link>http://devopera.com/applications/redmine-ruby-rails</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;div class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-colorbox/public/product-images/redmine_devopera.jpg?itok=kXQDhjY2&quot; title=&quot;Redmine (Ruby on Rails)&quot; class=&quot;colorbox&quot; data-colorbox-gallery=&quot;gallery-node-66-vyAH4WCPehA&quot; data-cbox-img-attrs=&quot;{&amp;quot;title&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;alt&amp;quot;: &amp;quot;&amp;quot;}&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-node/public/product-images/redmine_devopera.jpg?itok=HxDADpK2&quot; width=&quot;611&quot; height=&quot;300&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;      &lt;/div&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;p class=&quot;initial&quot;&gt;Redmine (2.4.5) is a project management tool and issue tracker.  This devopera build features everything you need to start using Redmine right away.  The Redmine site is installed in &lt;em&gt;/var/www/svn/svn.redmine.org/redmine&lt;/em&gt;, it connects to a local fresh database (see credentials) and this build is initially entitled &#039;Redmine&#039;.  There&#039;s a symlink in the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory making it straight forward to start installing modules using either Samba or SSH.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Logging in with a web browser&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Simply enter the IP address of your server or VM into the address bar of your web browser.  There&#039;s also a redmine.&amp;lt;hostname&amp;gt; vhost setup, but it&#039;s the first and therefore default entry.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;The administrator user account (admin) has an initial password &#039;admin&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Username: admin&lt;br /&gt;
+Password: admin&lt;br /&gt;
+DB name: doredmine&lt;br /&gt;
+DB username: doredmine&lt;br /&gt;
+DB password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Ruby on Rails&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Ruby (1.8.7) is installed with RubyGems (1.3.7).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Passenger&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;mod_passenger for Apache&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;h3&gt;LAMP stack&lt;/h3&gt;
+&lt;div id=&quot;node-38&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/lamp-stack&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/lamp-stack&quot;&gt;LAMP stack&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;LAMP stack&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;zend&quot;&gt;Zend Server (5.6.0)&lt;/a&gt;&lt;/h4&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Zend make PHP.  They also formally release a partial stack for hosting PHP applications like Drupal and Wordpress.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Apache (2.2)&lt;/h5&gt;
+&lt;p&gt;Apache runs as user &lt;em&gt;web&lt;/em&gt; and group &lt;em&gt;www-data&lt;/em&gt;.  The application site files are owned by the &lt;em&gt;web&lt;/em&gt; user but given the &lt;em&gt;web&lt;/em&gt; group to allow Apache read-only access to them.  Certain content management systems (CMS) require that key subdirectories are writeable (files, cache etc.) but those exceptions can be set using &lt;em&gt;chmod 660 &amp;lt;filename&amp;gt;&lt;/em&gt;.  The generic config (/etc/httpd/conf/httpd.conf) is fairly vanilla; specialisations and vhosts live in &lt;em&gt;/etc/httpd/conf.d/&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PHP (5.3)&lt;/h5&gt;
+&lt;p&gt;This version of PHP has faster execution times and more efficient memory handling, support for closures and true anonymous functions.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend optimizer&lt;/h5&gt;
+&lt;p&gt;By default Zend optimizer is setup to compile all PHP to accelerate its execution, much like APC.  This can be configured in the Zend console&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend debugger&lt;/h5&gt;
+&lt;p&gt;You can connect your Integrated Development Environment (IDE) such as Eclipse or Komodo to the Zend debugger on port 10000.  Depending on your firewall setup, you may choose to &lt;a href=&quot;&quot;&gt;tunnel access to this service over SSH&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend console&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The Zend server console runs on its own lightweight web server (Lighttpd) on port 10081, which is exposed through the firewall to allow direct external access to the console (using a web browser) or the debugging (using an IDE, such as Zend Studio or Eclipse).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The console, like other firewalled services, can be accessed using SSH tunnels.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;mysql&quot;&gt;MySQL (5.5)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;MySQL comes in its latest general release format, to ensure the best mix of performance and reliability.  It&#039;s running on the standard port (3306 and can be accessed via a tunnelled connection or from the installed command line client (mysql).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Automated root access&lt;/h5&gt;
+&lt;p&gt;The mysql root password is setup in /root/.my.cnf which allows the [linux] root user to login to the mysql command line automatically, without being re-prompted for a password.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Configuration&lt;/h5&gt;
+&lt;p&gt;The generic config (/etc/my.cnf) is fairly vanilla; the main configuration lives in &lt;em&gt;/etc/mysql.d/domysqldb.conf&lt;/em&gt; and is broadly divided into static values (consistent for all machine types and sizes) and dynamic values that alter depending on how much memory or how many processor cores the machine is built with.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;The administrator account (root) has an initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;
+MySQL root username: root&lt;br /&gt;
+MySQL root password: admLn**&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/domysqldb&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domysqldb&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dozendserver&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dozendserver&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;Operating base&lt;/h3&gt;
+&lt;div id=&quot;node-37&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/operating-base-applies-centos-and-ubuntu&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/operating-base-applies-centos-and-ubuntu&quot;&gt;Operating base (applies to CentOS and Ubuntu)&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;Operating base (applies to CentOS and Ubuntu)&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;single_user&quot;&gt;Single user&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Each machine is setup with a single day-to-day user account (web) and a super-privileged &lt;em&gt;root&lt;/em&gt; user.  The &lt;em&gt;web&lt;/em&gt; user&#039;s home directory is in /home/web.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;ssh&quot;&gt;Secure shell (SSH)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SSH access is setup on a non-standard port (15022) to improve security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using password&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;web only, then su to root or better sudo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;web only, then su to root&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using PKI&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Public-private key pairs give excellent security and are a handy way to manage communication, both to your server and from it to other sites, such as &lt;a href=&quot;http://www.github.com&quot;&gt;github.com&lt;/a&gt;. Every Devopera server and VM comes with a private-public key pair installed.  By copying out the private key and loading it on your local host machine, you can SSH to your server without being prompted to login (instructions for &lt;a href=&quot;http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter9.html&quot;&gt;Windows/Putty/Pageant&lt;/a&gt;, &lt;a href=&quot;http://mah.everybody.org/docs/ssh&quot;&gt;Linux&lt;/a&gt; and &lt;a href=&quot;http://fplanque.com/dev/mac/secure-ssh-private-keys-on-mac-osx-10-5&quot;&gt;Mac OS X&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PKI key agent&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The private key is loaded automatically using a hardcoded passphrase.  This is very convenient for dev machines, because they can talk to other non-secure infrastructure as soon as started up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+Live and staging servers rely on the passphrase being entered the first time the &lt;em&gt;web&lt;/em&gt; user logs on.  From that point on it&#039;s stored by the ssh-agent (until the next restart or refresh of ssh-agent) and used to authenticate the machine with other servers.  It does mean that live servers require the user to enter the key passphrase before they&#039;re able to start talking, but that additional security measure helps ensure they don&#039;t go rogue.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;web&lt;/em&gt; user password: admLn**&lt;br /&gt;
+&lt;em&gt;root&lt;/em&gt; user password: devopera&lt;br /&gt;
+Key passphrase: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SFTP access&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Secure File Transfer Protocol (SFTP) is also enabled by the SSH daemon.  While almost all command-line versions of the SSH client support port (-p) and user@host settings, some older versions of SFTP don&#039;t.  However you can configure all the settings (port, user, host, even forwarding) in ~/.ssh/config which &lt;a href=&quot;http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/&quot;&gt;simplifies your command line&lt;/a&gt; (ssh &lt;hostname&gt; or sftp &lt;hostname&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;selinux&quot;&gt;Security-Enhanced Linux (SELinux)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SELinux is enabled and set to enforcing for both dev and live machine types.  All services described here are configured to work with SELinux in their current configurations.  While many sysadmins choose to disable SELinux, we prefer to start with the most secure setup we know how to create and let you make decisions about how you want to relax it.  Please see later notes on how to maintain the security of your devopera servers.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;stdtools&quot;&gt;Standard tools&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;NTP&lt;/h5&gt;
+&lt;p&gt;Network Time Protocol is used to synchronise this machine&#039;s time with network-based time servers.&lt;/p&gt;
+&lt;h5&gt;Compass&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt; is an open-source CSS Authoring Framework, mainly used to compile SASS into CSS.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;Dev tools are not installed on live servers by default.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;vcs&quot;&gt;Version control systems (VCS)&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;Git/Subversion repos&lt;/h5&gt;
+&lt;p&gt;Git and subversion are setup.  Many applications are available from repositories.  These applications are organised in the /var/www directory by the VCS they use and the server from which they are sourced:&lt;br /&gt;
+e.g. /var/www/git/github.com/my_git_repo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;samba&quot;&gt;Samba&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Samba shares are setup for the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory and &lt;em&gt;/var/www&lt;/em&gt;.  Each samba share is configured to create and modify files with a certain set of permissions: read-write for &lt;em&gt;web&lt;/em&gt; and read-only for &lt;em&gt;www-data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No matter how diligent your are, you may find certain programs set different permissions so a bit of chmod&#039;ing is often required!  To access samba using Windows file sharing, just connect to:&lt;br /&gt;
+\\&amp;lt;ip address&amp;gt;&lt;br /&gt;
+or&lt;br /&gt;
+\\&amp;lt;machine alias&amp;gt;&lt;br /&gt;
+if you&#039;ve set one up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;We don&#039;t encourage using samba for access to live machines.  While it can be enabled and port-forwarded over SSH securely, we recommend using a VCS such as git/svn for code deployment and SSH/SFTP or SCP to send files to the server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;&lt;span class=&quot;cred&quot;&gt;Credentials&lt;/span&gt;&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The &lt;em&gt;web&lt;/em&gt; user account has a corresponding but independent Samba user (web) with initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Samba username: web&lt;br /&gt;
+Samba password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The Samba service is not turned on by default for live servers or their corresponding staging peers.  It&#039;s for security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;firewall&quot;&gt;Firewall&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;h7&gt;iptables&lt;/h7&gt;
+&lt;p&gt;We restrict only the incoming port list to those services that are available.  For dev machines, your environment may be properly secured behind a firewall, so you could disable the VM&#039;s firewall by running &lt;em&gt;sudo service iptables stop&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;Live servers typically run in exposed environments or on open networks, hence our firewall policy is a lot more involved for staging VMs or live builds.&lt;/p&gt;
+&lt;h7&gt;ConfigServer Firewall (csf) and Login Failure Daemon (lfd)&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://configserver.com/cp/csf.html&quot;&gt;ConfigServer Firewall&lt;/a&gt; is setup to protect both incoming and outgoing ports.  If you want to do install new services, you must open the necessary ports in &lt;em&gt;/etc/csf/csf.conf&lt;/em&gt; and ask CSF to reload them.&lt;/p&gt;
+&lt;h7&gt;rkhunter&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://rkhunter.sourceforge.net/&quot;&gt;RootKit hunter&lt;/a&gt; is designed to identify binaries that have been corrupted with intent to compromise a server.  To run rkhunter manually (non-interactive):&lt;br /&gt;
+/usr/bin/rkhunter -c -sk&lt;br /&gt;
+After updating any of the monitored binaries, you&#039;ll need to tell rkhunter to update its database in order to avoid false positives:&lt;br /&gt;
+/usr/bin/rkhunter --propupd&lt;br /&gt;
+Finally, if you receive rkhunter&#039;s &#039;something has changed&#039; email (that reads &quot;Please inspect this machine, because it may be infected.&quot;), we recommend looking at the logs (in /var/log/rkhunter) to understand what triggered it.
+&lt;/p&gt;
+&lt;h7&gt;maldet&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rfxn.com/projects/linux-malware-detect/&quot;&gt;Linux Malware Detect&lt;/a&gt; looks for malware on a server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;dns&quot;&gt;DNS&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Currently dev machines do not offer local DNS support, but it is planned.  For now, you can always put records in your /etc/hosts file, which under Windows lives in /Windows/system32/drivers/etc/hosts.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;DNS is not configured for live servers as the domain name resolution system was not really designed for web servers to host their own DNS records.  We recommend using a registrar that provides DNS management services, like &lt;a href=&quot;http://www.domainmonster.com&quot;&gt;Domainmonster.com&lt;/a&gt; who we use.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/docommon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;docommon&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/domotd&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domotd&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dopki&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopki&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dopostfix&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopostfix&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dorepos&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dorepos&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dosamba&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dosamba&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;General information&lt;/h3&gt;
+&lt;div id=&quot;node-40&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/general-vm-information&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/general-vm-information&quot;&gt;General VM information&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;General VM information&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;For more information on how to use the virtual application (VM) you&#039;ve downloaded:&lt;br /&gt;
+&lt;a href=&quot;/content/using-devopera-vm&quot;&gt;Using a Devopera VM&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;div class=&quot;action&quot; style=&quot;margin: 2.0em 0 1.0em 0;&quot;&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-rm2r001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-rm2-dev [001]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free CentOS 6 development VM to get started with Redmine right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;doco6-rm2r001-dev.tar.gz (1286.6MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-rm2r001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-rm2-dev [001]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free Ubuntu 12.04 development VM to get started with Redmine right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;dobu12-rm2r001-dev.tar.gz (1987.2MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+
+  &lt;!-- append purchase call to action --&gt;
+  &lt;div class=&quot;action-line&quot;&gt;
+    &lt;p class=&quot;action-button action-buynow&quot;&gt;
+      &lt;a href=&quot;/product/server-install&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/buy-now-button.jpg&quot; alt=&quot;Let us install Redmine on your server for you&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Let us configure your Redmine server
+      for &amp;pound;0 &lt;span class=&quot;price-suffixes&quot;&gt;&lt;/span&gt;    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- append header buttons, for fade in --&gt;
+&lt;div class=&quot;vm-header-buttons&quot; id=&quot;selectos&quot;&gt;
+  &lt;ul class=&quot;tabs primary clearfix&quot;&gt;
+    &lt;li class=&quot;active&quot;&gt;
+      &lt;a class=&quot;active tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_centos6&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;CentOS 6&lt;/span&gt;&lt;span class=&quot;element-invisible&quot;&gt;(active tab)&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;&quot;&gt;
+      &lt;a class=&quot; tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_ubuntu1204&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;Ubuntu 12.04&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class=&quot;active pane&quot; id=&quot;pane-selectos_centos6&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-rm2r001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM doco6-rm2-dev [001]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;CentOS 6 VM (doco6-rm2-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add doco6-rm2-dev http://devopera.com/node/0/download/centos6&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/centos6&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot; pane&quot; id=&quot;pane-selectos_ubuntu1204&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-rm2r001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM dobu12-rm2-dev [001]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;Ubuntu 12.04 VM (dobu12-rm2-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add dobu12-rm2-dev http://devopera.com/node/0/download/ubuntu1204&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/ubuntu1204&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 08 Apr 2014 21:09:16 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">66 at http://devopera.com</guid>
+ <comments>http://devopera.com/applications/redmine-ruby-rails#comments</comments>
+</item>
+<item>
+ <title>Linux Apache MySQL PHP (LAMP)</title>
+ <link>http://devopera.com/applications/linux-apache-mysql-php-lamp</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;div class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-colorbox/public/product-images/lamp.jpg?itok=opTEWFE2&quot; title=&quot;Linux Apache MySQL PHP (LAMP)&quot; class=&quot;colorbox&quot; data-colorbox-gallery=&quot;gallery-node-63-vyAH4WCPehA&quot; data-cbox-img-attrs=&quot;{&amp;quot;title&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;alt&amp;quot;: &amp;quot;&amp;quot;}&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-node/public/product-images/lamp.jpg?itok=r4C-C-WD&quot; width=&quot;611&quot; height=&quot;300&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;      &lt;/div&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;p class=&quot;initial&quot;&gt;The Linux Apache MySQL PHP, or LAMP stack is one of the most widely used on the Internet.  It&#039;s one of the most astounding achievements of the open source movement, capable of handling thousands of simultaneous requests as part of a high-availability, high-load infrastructure.  This build also provides a simple demo, based on the &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;HTML 5 Boilerplate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Logging in with a web browser&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Simply enter the IP address of your server or VM into the address bar of your web browser.  There&#039;s also a lamp-demo.&amp;lt;hostname&amp;gt; vhost setup, but it&#039;s the first and therefore default entry.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Paths&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;For simplicity, there&#039;s a symlink in the user&#039;s home folder (/home/web/lamp-demo) to the demo app&#039;s document root, /var/www/git/github.com/lamp-demo.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;h3&gt;LAMP stack&lt;/h3&gt;
+&lt;div id=&quot;node-38&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/lamp-stack&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/lamp-stack&quot;&gt;LAMP stack&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;LAMP stack&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;zend&quot;&gt;Zend Server (5.6.0)&lt;/a&gt;&lt;/h4&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Zend make PHP.  They also formally release a partial stack for hosting PHP applications like Drupal and Wordpress.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Apache (2.2)&lt;/h5&gt;
+&lt;p&gt;Apache runs as user &lt;em&gt;web&lt;/em&gt; and group &lt;em&gt;www-data&lt;/em&gt;.  The application site files are owned by the &lt;em&gt;web&lt;/em&gt; user but given the &lt;em&gt;web&lt;/em&gt; group to allow Apache read-only access to them.  Certain content management systems (CMS) require that key subdirectories are writeable (files, cache etc.) but those exceptions can be set using &lt;em&gt;chmod 660 &amp;lt;filename&amp;gt;&lt;/em&gt;.  The generic config (/etc/httpd/conf/httpd.conf) is fairly vanilla; specialisations and vhosts live in &lt;em&gt;/etc/httpd/conf.d/&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PHP (5.3)&lt;/h5&gt;
+&lt;p&gt;This version of PHP has faster execution times and more efficient memory handling, support for closures and true anonymous functions.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend optimizer&lt;/h5&gt;
+&lt;p&gt;By default Zend optimizer is setup to compile all PHP to accelerate its execution, much like APC.  This can be configured in the Zend console&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend debugger&lt;/h5&gt;
+&lt;p&gt;You can connect your Integrated Development Environment (IDE) such as Eclipse or Komodo to the Zend debugger on port 10000.  Depending on your firewall setup, you may choose to &lt;a href=&quot;&quot;&gt;tunnel access to this service over SSH&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend console&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The Zend server console runs on its own lightweight web server (Lighttpd) on port 10081, which is exposed through the firewall to allow direct external access to the console (using a web browser) or the debugging (using an IDE, such as Zend Studio or Eclipse).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The console, like other firewalled services, can be accessed using SSH tunnels.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;mysql&quot;&gt;MySQL (5.5)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;MySQL comes in its latest general release format, to ensure the best mix of performance and reliability.  It&#039;s running on the standard port (3306 and can be accessed via a tunnelled connection or from the installed command line client (mysql).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Automated root access&lt;/h5&gt;
+&lt;p&gt;The mysql root password is setup in /root/.my.cnf which allows the [linux] root user to login to the mysql command line automatically, without being re-prompted for a password.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Configuration&lt;/h5&gt;
+&lt;p&gt;The generic config (/etc/my.cnf) is fairly vanilla; the main configuration lives in &lt;em&gt;/etc/mysql.d/domysqldb.conf&lt;/em&gt; and is broadly divided into static values (consistent for all machine types and sizes) and dynamic values that alter depending on how much memory or how many processor cores the machine is built with.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;The administrator account (root) has an initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;
+MySQL root username: root&lt;br /&gt;
+MySQL root password: admLn**&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/domysqldb&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domysqldb&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dozendserver&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dozendserver&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;Operating base&lt;/h3&gt;
+&lt;div id=&quot;node-37&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/operating-base-applies-centos-and-ubuntu&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/operating-base-applies-centos-and-ubuntu&quot;&gt;Operating base (applies to CentOS and Ubuntu)&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;Operating base (applies to CentOS and Ubuntu)&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;single_user&quot;&gt;Single user&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Each machine is setup with a single day-to-day user account (web) and a super-privileged &lt;em&gt;root&lt;/em&gt; user.  The &lt;em&gt;web&lt;/em&gt; user&#039;s home directory is in /home/web.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;ssh&quot;&gt;Secure shell (SSH)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SSH access is setup on a non-standard port (15022) to improve security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using password&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;web only, then su to root or better sudo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;web only, then su to root&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using PKI&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Public-private key pairs give excellent security and are a handy way to manage communication, both to your server and from it to other sites, such as &lt;a href=&quot;http://www.github.com&quot;&gt;github.com&lt;/a&gt;. Every Devopera server and VM comes with a private-public key pair installed.  By copying out the private key and loading it on your local host machine, you can SSH to your server without being prompted to login (instructions for &lt;a href=&quot;http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter9.html&quot;&gt;Windows/Putty/Pageant&lt;/a&gt;, &lt;a href=&quot;http://mah.everybody.org/docs/ssh&quot;&gt;Linux&lt;/a&gt; and &lt;a href=&quot;http://fplanque.com/dev/mac/secure-ssh-private-keys-on-mac-osx-10-5&quot;&gt;Mac OS X&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PKI key agent&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The private key is loaded automatically using a hardcoded passphrase.  This is very convenient for dev machines, because they can talk to other non-secure infrastructure as soon as started up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+Live and staging servers rely on the passphrase being entered the first time the &lt;em&gt;web&lt;/em&gt; user logs on.  From that point on it&#039;s stored by the ssh-agent (until the next restart or refresh of ssh-agent) and used to authenticate the machine with other servers.  It does mean that live servers require the user to enter the key passphrase before they&#039;re able to start talking, but that additional security measure helps ensure they don&#039;t go rogue.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;web&lt;/em&gt; user password: admLn**&lt;br /&gt;
+&lt;em&gt;root&lt;/em&gt; user password: devopera&lt;br /&gt;
+Key passphrase: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SFTP access&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Secure File Transfer Protocol (SFTP) is also enabled by the SSH daemon.  While almost all command-line versions of the SSH client support port (-p) and user@host settings, some older versions of SFTP don&#039;t.  However you can configure all the settings (port, user, host, even forwarding) in ~/.ssh/config which &lt;a href=&quot;http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/&quot;&gt;simplifies your command line&lt;/a&gt; (ssh &lt;hostname&gt; or sftp &lt;hostname&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;selinux&quot;&gt;Security-Enhanced Linux (SELinux)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SELinux is enabled and set to enforcing for both dev and live machine types.  All services described here are configured to work with SELinux in their current configurations.  While many sysadmins choose to disable SELinux, we prefer to start with the most secure setup we know how to create and let you make decisions about how you want to relax it.  Please see later notes on how to maintain the security of your devopera servers.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;stdtools&quot;&gt;Standard tools&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;NTP&lt;/h5&gt;
+&lt;p&gt;Network Time Protocol is used to synchronise this machine&#039;s time with network-based time servers.&lt;/p&gt;
+&lt;h5&gt;Compass&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt; is an open-source CSS Authoring Framework, mainly used to compile SASS into CSS.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;Dev tools are not installed on live servers by default.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;vcs&quot;&gt;Version control systems (VCS)&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;Git/Subversion repos&lt;/h5&gt;
+&lt;p&gt;Git and subversion are setup.  Many applications are available from repositories.  These applications are organised in the /var/www directory by the VCS they use and the server from which they are sourced:&lt;br /&gt;
+e.g. /var/www/git/github.com/my_git_repo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;samba&quot;&gt;Samba&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Samba shares are setup for the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory and &lt;em&gt;/var/www&lt;/em&gt;.  Each samba share is configured to create and modify files with a certain set of permissions: read-write for &lt;em&gt;web&lt;/em&gt; and read-only for &lt;em&gt;www-data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No matter how diligent your are, you may find certain programs set different permissions so a bit of chmod&#039;ing is often required!  To access samba using Windows file sharing, just connect to:&lt;br /&gt;
+\\&amp;lt;ip address&amp;gt;&lt;br /&gt;
+or&lt;br /&gt;
+\\&amp;lt;machine alias&amp;gt;&lt;br /&gt;
+if you&#039;ve set one up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;We don&#039;t encourage using samba for access to live machines.  While it can be enabled and port-forwarded over SSH securely, we recommend using a VCS such as git/svn for code deployment and SSH/SFTP or SCP to send files to the server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;&lt;span class=&quot;cred&quot;&gt;Credentials&lt;/span&gt;&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The &lt;em&gt;web&lt;/em&gt; user account has a corresponding but independent Samba user (web) with initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Samba username: web&lt;br /&gt;
+Samba password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The Samba service is not turned on by default for live servers or their corresponding staging peers.  It&#039;s for security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;firewall&quot;&gt;Firewall&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;h7&gt;iptables&lt;/h7&gt;
+&lt;p&gt;We restrict only the incoming port list to those services that are available.  For dev machines, your environment may be properly secured behind a firewall, so you could disable the VM&#039;s firewall by running &lt;em&gt;sudo service iptables stop&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;Live servers typically run in exposed environments or on open networks, hence our firewall policy is a lot more involved for staging VMs or live builds.&lt;/p&gt;
+&lt;h7&gt;ConfigServer Firewall (csf) and Login Failure Daemon (lfd)&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://configserver.com/cp/csf.html&quot;&gt;ConfigServer Firewall&lt;/a&gt; is setup to protect both incoming and outgoing ports.  If you want to do install new services, you must open the necessary ports in &lt;em&gt;/etc/csf/csf.conf&lt;/em&gt; and ask CSF to reload them.&lt;/p&gt;
+&lt;h7&gt;rkhunter&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://rkhunter.sourceforge.net/&quot;&gt;RootKit hunter&lt;/a&gt; is designed to identify binaries that have been corrupted with intent to compromise a server.  To run rkhunter manually (non-interactive):&lt;br /&gt;
+/usr/bin/rkhunter -c -sk&lt;br /&gt;
+After updating any of the monitored binaries, you&#039;ll need to tell rkhunter to update its database in order to avoid false positives:&lt;br /&gt;
+/usr/bin/rkhunter --propupd&lt;br /&gt;
+Finally, if you receive rkhunter&#039;s &#039;something has changed&#039; email (that reads &quot;Please inspect this machine, because it may be infected.&quot;), we recommend looking at the logs (in /var/log/rkhunter) to understand what triggered it.
+&lt;/p&gt;
+&lt;h7&gt;maldet&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rfxn.com/projects/linux-malware-detect/&quot;&gt;Linux Malware Detect&lt;/a&gt; looks for malware on a server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;dns&quot;&gt;DNS&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Currently dev machines do not offer local DNS support, but it is planned.  For now, you can always put records in your /etc/hosts file, which under Windows lives in /Windows/system32/drivers/etc/hosts.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;DNS is not configured for live servers as the domain name resolution system was not really designed for web servers to host their own DNS records.  We recommend using a registrar that provides DNS management services, like &lt;a href=&quot;http://www.domainmonster.com&quot;&gt;Domainmonster.com&lt;/a&gt; who we use.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/docommon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;docommon&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/domotd&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domotd&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dopki&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopki&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dopostfix&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopostfix&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dorepos&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dorepos&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dosamba&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dosamba&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;General information&lt;/h3&gt;
+&lt;div id=&quot;node-40&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/general-vm-information&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/general-vm-information&quot;&gt;General VM information&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;General VM information&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;For more information on how to use the virtual application (VM) you&#039;ve downloaded:&lt;br /&gt;
+&lt;a href=&quot;/content/using-devopera-vm&quot;&gt;Using a Devopera VM&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;div class=&quot;action&quot; style=&quot;margin: 2.0em 0 1.0em 0;&quot;&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-lampr001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-lamp-dev [001]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free CentOS 6 development VM to get started with lamp-demo right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;doco6-lampr001-dev.tar.gz (967.8MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-lampr001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-lamp-dev [001]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free Ubuntu 12.04 development VM to get started with lamp-demo right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;dobu12-lampr001-dev.tar.gz (1528MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+
+  &lt;!-- append purchase call to action --&gt;
+  &lt;div class=&quot;action-line&quot;&gt;
+    &lt;p class=&quot;action-button action-buynow&quot;&gt;
+      &lt;a href=&quot;/product/server-install&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/buy-now-button.jpg&quot; alt=&quot;Let us install lamp-demo on your server for you&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Let us configure your lamp-demo server
+      for &amp;pound;0 &lt;span class=&quot;price-suffixes&quot;&gt;&lt;/span&gt;    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- append header buttons, for fade in --&gt;
+&lt;div class=&quot;vm-header-buttons&quot; id=&quot;selectos&quot;&gt;
+  &lt;ul class=&quot;tabs primary clearfix&quot;&gt;
+    &lt;li class=&quot;active&quot;&gt;
+      &lt;a class=&quot;active tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_centos6&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;CentOS 6&lt;/span&gt;&lt;span class=&quot;element-invisible&quot;&gt;(active tab)&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;&quot;&gt;
+      &lt;a class=&quot; tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_ubuntu1204&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;Ubuntu 12.04&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class=&quot;active pane&quot; id=&quot;pane-selectos_centos6&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-lampr001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM doco6-lamp-dev [001]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;CentOS 6 VM (doco6-lamp-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add doco6-lamp-dev http://devopera.com/node/0/download/centos6&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/centos6&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot; pane&quot; id=&quot;pane-selectos_ubuntu1204&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-lampr001-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM dobu12-lamp-dev [001]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;Ubuntu 12.04 VM (dobu12-lamp-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add dobu12-lamp-dev http://devopera.com/node/0/download/ubuntu1204&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/ubuntu1204&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 30 Dec 2013 18:10:48 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">63 at http://devopera.com</guid>
+ <comments>http://devopera.com/applications/linux-apache-mysql-php-lamp#comments</comments>
+</item>
+<item>
+ <title>Nagios and Puppetmaster with PuppetDB</title>
+ <link>http://devopera.com/applications/nagios-and-puppetmaster-puppetdb</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;div class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-colorbox/public/product-images/nagios-puppetmaster.jpg?itok=riNCt2Cu&quot; title=&quot;Nagios and Puppetmaster with PuppetDB&quot; class=&quot;colorbox&quot; data-colorbox-gallery=&quot;gallery-node-54-vyAH4WCPehA&quot; data-cbox-img-attrs=&quot;{&amp;quot;title&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;alt&amp;quot;: &amp;quot;&amp;quot;}&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-node/public/product-images/nagios-puppetmaster.jpg?itok=CfklPJdb&quot; width=&quot;611&quot; height=&quot;300&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;      &lt;/div&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;p class=&quot;initial&quot;&gt;Nagios (3.5.1) is an open source tool for monitoring IT infrastructure.  Coupled with Nagios, Puppet (3.7.3) can automatically configure machine profiles for each node of that infrastructure, allowing you to track and monitor all your puppetted machines.  This devopera build features a configured Puppetmaster (puppet in a master/daemon role), setup to use PuppetDB for storing all machine profiles (storeconfigs).  The Nagios admin interface is installed in &lt;em&gt;/usr/share/nagios/html&lt;/em&gt; and its configuration is stored in &lt;em&gt;/etc/nagios&lt;/em&gt;.  There are symlinks in the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory making it straight forward to start customising the setup using either Samba or SSH.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Nagios admin interface&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;Simply enter the IP address of your server or VM into the address bar of your web browser, using port 43326, e.g.&lt;br /&gt;
+http://&amp;lt;ip_address&amp;gt;:43326&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;Port 43326 is not exposed on live servers, but the admin interface can be accessed using an SSH tunnel.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;The admin interface has some elementary password protection (htbasic), though this should not be relied upon outside of a dev/staging environment. User (admin) has an initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;
+Admin username: admin&lt;br /&gt;
+Admin password: admLn**&lt;br /&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;h3&gt;LAMP stack&lt;/h3&gt;
+&lt;div id=&quot;node-38&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/lamp-stack&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/lamp-stack&quot;&gt;LAMP stack&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;LAMP stack&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;zend&quot;&gt;Zend Server (5.6.0)&lt;/a&gt;&lt;/h4&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Zend make PHP.  They also formally release a partial stack for hosting PHP applications like Drupal and Wordpress.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Apache (2.2)&lt;/h5&gt;
+&lt;p&gt;Apache runs as user &lt;em&gt;web&lt;/em&gt; and group &lt;em&gt;www-data&lt;/em&gt;.  The application site files are owned by the &lt;em&gt;web&lt;/em&gt; user but given the &lt;em&gt;web&lt;/em&gt; group to allow Apache read-only access to them.  Certain content management systems (CMS) require that key subdirectories are writeable (files, cache etc.) but those exceptions can be set using &lt;em&gt;chmod 660 &amp;lt;filename&amp;gt;&lt;/em&gt;.  The generic config (/etc/httpd/conf/httpd.conf) is fairly vanilla; specialisations and vhosts live in &lt;em&gt;/etc/httpd/conf.d/&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PHP (5.3)&lt;/h5&gt;
+&lt;p&gt;This version of PHP has faster execution times and more efficient memory handling, support for closures and true anonymous functions.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend optimizer&lt;/h5&gt;
+&lt;p&gt;By default Zend optimizer is setup to compile all PHP to accelerate its execution, much like APC.  This can be configured in the Zend console&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend debugger&lt;/h5&gt;
+&lt;p&gt;You can connect your Integrated Development Environment (IDE) such as Eclipse or Komodo to the Zend debugger on port 10000.  Depending on your firewall setup, you may choose to &lt;a href=&quot;&quot;&gt;tunnel access to this service over SSH&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend console&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The Zend server console runs on its own lightweight web server (Lighttpd) on port 10081, which is exposed through the firewall to allow direct external access to the console (using a web browser) or the debugging (using an IDE, such as Zend Studio or Eclipse).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The console, like other firewalled services, can be accessed using SSH tunnels.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;mysql&quot;&gt;MySQL (5.5)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;MySQL comes in its latest general release format, to ensure the best mix of performance and reliability.  It&#039;s running on the standard port (3306 and can be accessed via a tunnelled connection or from the installed command line client (mysql).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Automated root access&lt;/h5&gt;
+&lt;p&gt;The mysql root password is setup in /root/.my.cnf which allows the [linux] root user to login to the mysql command line automatically, without being re-prompted for a password.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Configuration&lt;/h5&gt;
+&lt;p&gt;The generic config (/etc/my.cnf) is fairly vanilla; the main configuration lives in &lt;em&gt;/etc/mysql.d/domysqldb.conf&lt;/em&gt; and is broadly divided into static values (consistent for all machine types and sizes) and dynamic values that alter depending on how much memory or how many processor cores the machine is built with.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;The administrator account (root) has an initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;
+MySQL root username: root&lt;br /&gt;
+MySQL root password: admLn**&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/domysqldb&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domysqldb&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dozendserver&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dozendserver&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;Operating base&lt;/h3&gt;
+&lt;div id=&quot;node-37&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/operating-base-applies-centos-and-ubuntu&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/operating-base-applies-centos-and-ubuntu&quot;&gt;Operating base (applies to CentOS and Ubuntu)&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;Operating base (applies to CentOS and Ubuntu)&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;single_user&quot;&gt;Single user&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Each machine is setup with a single day-to-day user account (web) and a super-privileged &lt;em&gt;root&lt;/em&gt; user.  The &lt;em&gt;web&lt;/em&gt; user&#039;s home directory is in /home/web.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;ssh&quot;&gt;Secure shell (SSH)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SSH access is setup on a non-standard port (15022) to improve security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using password&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;web only, then su to root or better sudo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;web only, then su to root&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using PKI&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Public-private key pairs give excellent security and are a handy way to manage communication, both to your server and from it to other sites, such as &lt;a href=&quot;http://www.github.com&quot;&gt;github.com&lt;/a&gt;. Every Devopera server and VM comes with a private-public key pair installed.  By copying out the private key and loading it on your local host machine, you can SSH to your server without being prompted to login (instructions for &lt;a href=&quot;http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter9.html&quot;&gt;Windows/Putty/Pageant&lt;/a&gt;, &lt;a href=&quot;http://mah.everybody.org/docs/ssh&quot;&gt;Linux&lt;/a&gt; and &lt;a href=&quot;http://fplanque.com/dev/mac/secure-ssh-private-keys-on-mac-osx-10-5&quot;&gt;Mac OS X&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PKI key agent&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The private key is loaded automatically using a hardcoded passphrase.  This is very convenient for dev machines, because they can talk to other non-secure infrastructure as soon as started up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+Live and staging servers rely on the passphrase being entered the first time the &lt;em&gt;web&lt;/em&gt; user logs on.  From that point on it&#039;s stored by the ssh-agent (until the next restart or refresh of ssh-agent) and used to authenticate the machine with other servers.  It does mean that live servers require the user to enter the key passphrase before they&#039;re able to start talking, but that additional security measure helps ensure they don&#039;t go rogue.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;web&lt;/em&gt; user password: admLn**&lt;br /&gt;
+&lt;em&gt;root&lt;/em&gt; user password: devopera&lt;br /&gt;
+Key passphrase: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SFTP access&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Secure File Transfer Protocol (SFTP) is also enabled by the SSH daemon.  While almost all command-line versions of the SSH client support port (-p) and user@host settings, some older versions of SFTP don&#039;t.  However you can configure all the settings (port, user, host, even forwarding) in ~/.ssh/config which &lt;a href=&quot;http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/&quot;&gt;simplifies your command line&lt;/a&gt; (ssh &lt;hostname&gt; or sftp &lt;hostname&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;selinux&quot;&gt;Security-Enhanced Linux (SELinux)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SELinux is enabled and set to enforcing for both dev and live machine types.  All services described here are configured to work with SELinux in their current configurations.  While many sysadmins choose to disable SELinux, we prefer to start with the most secure setup we know how to create and let you make decisions about how you want to relax it.  Please see later notes on how to maintain the security of your devopera servers.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;stdtools&quot;&gt;Standard tools&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;NTP&lt;/h5&gt;
+&lt;p&gt;Network Time Protocol is used to synchronise this machine&#039;s time with network-based time servers.&lt;/p&gt;
+&lt;h5&gt;Compass&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt; is an open-source CSS Authoring Framework, mainly used to compile SASS into CSS.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;Dev tools are not installed on live servers by default.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;vcs&quot;&gt;Version control systems (VCS)&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;Git/Subversion repos&lt;/h5&gt;
+&lt;p&gt;Git and subversion are setup.  Many applications are available from repositories.  These applications are organised in the /var/www directory by the VCS they use and the server from which they are sourced:&lt;br /&gt;
+e.g. /var/www/git/github.com/my_git_repo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;samba&quot;&gt;Samba&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Samba shares are setup for the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory and &lt;em&gt;/var/www&lt;/em&gt;.  Each samba share is configured to create and modify files with a certain set of permissions: read-write for &lt;em&gt;web&lt;/em&gt; and read-only for &lt;em&gt;www-data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No matter how diligent your are, you may find certain programs set different permissions so a bit of chmod&#039;ing is often required!  To access samba using Windows file sharing, just connect to:&lt;br /&gt;
+\\&amp;lt;ip address&amp;gt;&lt;br /&gt;
+or&lt;br /&gt;
+\\&amp;lt;machine alias&amp;gt;&lt;br /&gt;
+if you&#039;ve set one up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;We don&#039;t encourage using samba for access to live machines.  While it can be enabled and port-forwarded over SSH securely, we recommend using a VCS such as git/svn for code deployment and SSH/SFTP or SCP to send files to the server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;&lt;span class=&quot;cred&quot;&gt;Credentials&lt;/span&gt;&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The &lt;em&gt;web&lt;/em&gt; user account has a corresponding but independent Samba user (web) with initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Samba username: web&lt;br /&gt;
+Samba password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The Samba service is not turned on by default for live servers or their corresponding staging peers.  It&#039;s for security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;firewall&quot;&gt;Firewall&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;h7&gt;iptables&lt;/h7&gt;
+&lt;p&gt;We restrict only the incoming port list to those services that are available.  For dev machines, your environment may be properly secured behind a firewall, so you could disable the VM&#039;s firewall by running &lt;em&gt;sudo service iptables stop&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;Live servers typically run in exposed environments or on open networks, hence our firewall policy is a lot more involved for staging VMs or live builds.&lt;/p&gt;
+&lt;h7&gt;ConfigServer Firewall (csf) and Login Failure Daemon (lfd)&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://configserver.com/cp/csf.html&quot;&gt;ConfigServer Firewall&lt;/a&gt; is setup to protect both incoming and outgoing ports.  If you want to do install new services, you must open the necessary ports in &lt;em&gt;/etc/csf/csf.conf&lt;/em&gt; and ask CSF to reload them.&lt;/p&gt;
+&lt;h7&gt;rkhunter&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://rkhunter.sourceforge.net/&quot;&gt;RootKit hunter&lt;/a&gt; is designed to identify binaries that have been corrupted with intent to compromise a server.  To run rkhunter manually (non-interactive):&lt;br /&gt;
+/usr/bin/rkhunter -c -sk&lt;br /&gt;
+After updating any of the monitored binaries, you&#039;ll need to tell rkhunter to update its database in order to avoid false positives:&lt;br /&gt;
+/usr/bin/rkhunter --propupd&lt;br /&gt;
+Finally, if you receive rkhunter&#039;s &#039;something has changed&#039; email (that reads &quot;Please inspect this machine, because it may be infected.&quot;), we recommend looking at the logs (in /var/log/rkhunter) to understand what triggered it.
+&lt;/p&gt;
+&lt;h7&gt;maldet&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rfxn.com/projects/linux-malware-detect/&quot;&gt;Linux Malware Detect&lt;/a&gt; looks for malware on a server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;dns&quot;&gt;DNS&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Currently dev machines do not offer local DNS support, but it is planned.  For now, you can always put records in your /etc/hosts file, which under Windows lives in /Windows/system32/drivers/etc/hosts.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;DNS is not configured for live servers as the domain name resolution system was not really designed for web servers to host their own DNS records.  We recommend using a registrar that provides DNS management services, like &lt;a href=&quot;http://www.domainmonster.com&quot;&gt;Domainmonster.com&lt;/a&gt; who we use.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/docommon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;docommon&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/domotd&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domotd&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dopki&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopki&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dopostfix&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopostfix&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dorepos&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dorepos&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dosamba&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dosamba&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;General information&lt;/h3&gt;
+&lt;div id=&quot;node-40&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/general-vm-information&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/general-vm-information&quot;&gt;General VM information&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;General VM information&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;For more information on how to use the virtual application (VM) you&#039;ve downloaded:&lt;br /&gt;
+&lt;a href=&quot;/content/using-devopera-vm&quot;&gt;Using a Devopera VM&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;div class=&quot;action&quot; style=&quot;margin: 2.0em 0 1.0em 0;&quot;&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-nag3r004-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-nag3-dev [004]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free CentOS 6 development VM to get started with Nagios and Puppetmaster with PuppetDB right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;doco6-nag3r004-dev.tar.gz (1459.1MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+
+  &lt;!-- append purchase call to action --&gt;
+  &lt;div class=&quot;action-line&quot;&gt;
+    &lt;p class=&quot;action-button action-buynow&quot;&gt;
+      &lt;a href=&quot;/product/server-install&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/buy-now-button.jpg&quot; alt=&quot;Let us install Nagios and Puppetmaster with PuppetDB on your server for you&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Let us configure your Nagios and Puppetmaster with PuppetDB server
+      for &amp;pound;0 &lt;span class=&quot;price-suffixes&quot;&gt;&lt;/span&gt;    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- append header buttons, for fade in --&gt;
+&lt;div class=&quot;vm-header-buttons&quot; id=&quot;selectos&quot;&gt;
+  &lt;ul class=&quot;tabs primary clearfix&quot;&gt;
+    &lt;li class=&quot;active&quot;&gt;
+      &lt;a class=&quot;active tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_centos6&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;CentOS 6&lt;/span&gt;&lt;span class=&quot;element-invisible&quot;&gt;(active tab)&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class=&quot;active pane&quot; id=&quot;pane-selectos_centos6&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-nag3r004-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM doco6-nag3-dev [004]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;CentOS 6 VM (doco6-nag3-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add doco6-nag3-dev http://devopera.com/node/0/download/centos6&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/centos6&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sat, 20 Jul 2013 19:31:54 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">54 at http://devopera.com</guid>
+ <comments>http://devopera.com/applications/nagios-and-puppetmaster-puppetdb#comments</comments>
+</item>
+<item>
+ <title>Operating base (applies to CentOS and Ubuntu)</title>
+ <link>http://devopera.com/content/operating-base-applies-centos-and-ubuntu</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;single_user&quot;&gt;Single user&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Each machine is setup with a single day-to-day user account (web) and a super-privileged &lt;em&gt;root&lt;/em&gt; user.  The &lt;em&gt;web&lt;/em&gt; user&#039;s home directory is in /home/web.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;ssh&quot;&gt;Secure shell (SSH)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SSH access is setup on a non-standard port (15022) to improve security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using password&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;web only, then su to root or better sudo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;web only, then su to root&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using PKI&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Public-private key pairs give excellent security and are a handy way to manage communication, both to your server and from it to other sites, such as &lt;a href=&quot;http://www.github.com&quot;&gt;github.com&lt;/a&gt;. Every Devopera server and VM comes with a private-public key pair installed.  By copying out the private key and loading it on your local host machine, you can SSH to your server without being prompted to login (instructions for &lt;a href=&quot;http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter9.html&quot;&gt;Windows/Putty/Pageant&lt;/a&gt;, &lt;a href=&quot;http://mah.everybody.org/docs/ssh&quot;&gt;Linux&lt;/a&gt; and &lt;a href=&quot;http://fplanque.com/dev/mac/secure-ssh-private-keys-on-mac-osx-10-5&quot;&gt;Mac OS X&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PKI key agent&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The private key is loaded automatically using a hardcoded passphrase.  This is very convenient for dev machines, because they can talk to other non-secure infrastructure as soon as started up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+Live and staging servers rely on the passphrase being entered the first time the &lt;em&gt;web&lt;/em&gt; user logs on.  From that point on it&#039;s stored by the ssh-agent (until the next restart or refresh of ssh-agent) and used to authenticate the machine with other servers.  It does mean that live servers require the user to enter the key passphrase before they&#039;re able to start talking, but that additional security measure helps ensure they don&#039;t go rogue.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;web&lt;/em&gt; user password: admLn**&lt;br /&gt;
+&lt;em&gt;root&lt;/em&gt; user password: devopera&lt;br /&gt;
+Key passphrase: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SFTP access&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Secure File Transfer Protocol (SFTP) is also enabled by the SSH daemon.  While almost all command-line versions of the SSH client support port (-p) and user@host settings, some older versions of SFTP don&#039;t.  However you can configure all the settings (port, user, host, even forwarding) in ~/.ssh/config which &lt;a href=&quot;http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/&quot;&gt;simplifies your command line&lt;/a&gt; (ssh &lt;hostname&gt; or sftp &lt;hostname&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;selinux&quot;&gt;Security-Enhanced Linux (SELinux)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SELinux is enabled and set to enforcing for both dev and live machine types.  All services described here are configured to work with SELinux in their current configurations.  While many sysadmins choose to disable SELinux, we prefer to start with the most secure setup we know how to create and let you make decisions about how you want to relax it.  Please see later notes on how to maintain the security of your devopera servers.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;stdtools&quot;&gt;Standard tools&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;NTP&lt;/h5&gt;
+&lt;p&gt;Network Time Protocol is used to synchronise this machine&#039;s time with network-based time servers.&lt;/p&gt;
+&lt;h5&gt;Compass&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt; is an open-source CSS Authoring Framework, mainly used to compile SASS into CSS.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;Dev tools are not installed on live servers by default.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;vcs&quot;&gt;Version control systems (VCS)&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;Git/Subversion repos&lt;/h5&gt;
+&lt;p&gt;Git and subversion are setup.  Many applications are available from repositories.  These applications are organised in the /var/www directory by the VCS they use and the server from which they are sourced:&lt;br /&gt;
+e.g. /var/www/git/github.com/my_git_repo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;samba&quot;&gt;Samba&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Samba shares are setup for the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory and &lt;em&gt;/var/www&lt;/em&gt;.  Each samba share is configured to create and modify files with a certain set of permissions: read-write for &lt;em&gt;web&lt;/em&gt; and read-only for &lt;em&gt;www-data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No matter how diligent your are, you may find certain programs set different permissions so a bit of chmod&#039;ing is often required!  To access samba using Windows file sharing, just connect to:&lt;br /&gt;
+\\&amp;lt;ip address&amp;gt;&lt;br /&gt;
+or&lt;br /&gt;
+\\&amp;lt;machine alias&amp;gt;&lt;br /&gt;
+if you&#039;ve set one up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;We don&#039;t encourage using samba for access to live machines.  While it can be enabled and port-forwarded over SSH securely, we recommend using a VCS such as git/svn for code deployment and SSH/SFTP or SCP to send files to the server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;&lt;span class=&quot;cred&quot;&gt;Credentials&lt;/span&gt;&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The &lt;em&gt;web&lt;/em&gt; user account has a corresponding but independent Samba user (web) with initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Samba username: web&lt;br /&gt;
+Samba password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The Samba service is not turned on by default for live servers or their corresponding staging peers.  It&#039;s for security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;firewall&quot;&gt;Firewall&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;h7&gt;iptables&lt;/h7&gt;
+&lt;p&gt;We restrict only the incoming port list to those services that are available.  For dev machines, your environment may be properly secured behind a firewall, so you could disable the VM&#039;s firewall by running &lt;em&gt;sudo service iptables stop&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;Live servers typically run in exposed environments or on open networks, hence our firewall policy is a lot more involved for staging VMs or live builds.&lt;/p&gt;
+&lt;h7&gt;ConfigServer Firewall (csf) and Login Failure Daemon (lfd)&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://configserver.com/cp/csf.html&quot;&gt;ConfigServer Firewall&lt;/a&gt; is setup to protect both incoming and outgoing ports.  If you want to do install new services, you must open the necessary ports in &lt;em&gt;/etc/csf/csf.conf&lt;/em&gt; and ask CSF to reload them.&lt;/p&gt;
+&lt;h7&gt;rkhunter&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://rkhunter.sourceforge.net/&quot;&gt;RootKit hunter&lt;/a&gt; is designed to identify binaries that have been corrupted with intent to compromise a server.  To run rkhunter manually (non-interactive):&lt;br /&gt;
+/usr/bin/rkhunter -c -sk&lt;br /&gt;
+After updating any of the monitored binaries, you&#039;ll need to tell rkhunter to update its database in order to avoid false positives:&lt;br /&gt;
+/usr/bin/rkhunter --propupd&lt;br /&gt;
+Finally, if you receive rkhunter&#039;s &#039;something has changed&#039; email (that reads &quot;Please inspect this machine, because it may be infected.&quot;), we recommend looking at the logs (in /var/log/rkhunter) to understand what triggered it.
+&lt;/p&gt;
+&lt;h7&gt;maldet&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rfxn.com/projects/linux-malware-detect/&quot;&gt;Linux Malware Detect&lt;/a&gt; looks for malware on a server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;dns&quot;&gt;DNS&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Currently dev machines do not offer local DNS support, but it is planned.  For now, you can always put records in your /etc/hosts file, which under Windows lives in /Windows/system32/drivers/etc/hosts.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;DNS is not configured for live servers as the domain name resolution system was not really designed for web servers to host their own DNS records.  We recommend using a registrar that provides DNS management services, like &lt;a href=&quot;http://www.domainmonster.com&quot;&gt;Domainmonster.com&lt;/a&gt; who we use.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/docommon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;docommon&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/domotd&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domotd&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dopki&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopki&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dopostfix&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopostfix&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dorepos&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dorepos&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dosamba&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dosamba&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 01 Feb 2013 15:25:36 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">37 at http://devopera.com</guid>
+ <comments>http://devopera.com/content/operating-base-applies-centos-and-ubuntu#comments</comments>
+</item>
+<item>
+ <title>Drupal 7 (PHP)</title>
+ <link>http://devopera.com/applications/drupal-php</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;div class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-colorbox/public/product-images/drupal.jpg?itok=EO162KEo&quot; title=&quot;Drupal 7 (PHP)&quot; class=&quot;colorbox&quot; data-colorbox-gallery=&quot;gallery-node-14-vyAH4WCPehA&quot; data-cbox-img-attrs=&quot;{&amp;quot;title&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;alt&amp;quot;: &amp;quot;&amp;quot;}&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-node/public/product-images/drupal.jpg?itok=eyFKsRwW&quot; width=&quot;611&quot; height=&quot;300&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;      &lt;/div&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;p class=&quot;initial&quot;&gt;Drupal (7.34) is an open source CMS fuelled by an extraordinary community and there&#039;s some &lt;a href=&quot;http://drupal.org/getting-started/7/admin&quot;&gt;fantastic help available to get you started&lt;/a&gt;.  This devopera build features everything you need to start using Drupal right away.  The Drupal site is installed in &lt;em&gt;/var/www/html/drupal-7&lt;/em&gt;, it connects to a local fresh database (see credentials) and this build is initially entitled &#039;Devopera Drupal Demo&#039;.  There&#039;s a symlink in the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory making it straight forward to start installing modules using either Samba or SSH.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Logging in with a web browser&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Simply enter the IP address of your server or VM into the address bar of your web browser.  There&#039;s also a drupal.&amp;lt;hostname&amp;gt; vhost setup, but it&#039;s the first and therefore default entry.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Drush (6.2)&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Described as the Swiss Army knife of Drupal administration, &lt;em&gt;drush&lt;/em&gt; is installed to give those who prefer it command line access.  Use SSH (&lt;a href=&quot;#ssh&quot;&gt;see below&lt;/a&gt;) to gain command line access.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;The administrator user account (admin) has an initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Drupal username: admin&lt;br /&gt;
+Drupal password: admLn**&lt;br /&gt;
+DB name: dodrupal&lt;br /&gt;
+DB username: dodrupal&lt;br /&gt;
+DB password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;h3&gt;LAMP stack&lt;/h3&gt;
+&lt;div id=&quot;node-38&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/lamp-stack&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/lamp-stack&quot;&gt;LAMP stack&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;LAMP stack&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;zend&quot;&gt;Zend Server (5.6.0)&lt;/a&gt;&lt;/h4&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Zend make PHP.  They also formally release a partial stack for hosting PHP applications like Drupal and Wordpress.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Apache (2.2)&lt;/h5&gt;
+&lt;p&gt;Apache runs as user &lt;em&gt;web&lt;/em&gt; and group &lt;em&gt;www-data&lt;/em&gt;.  The application site files are owned by the &lt;em&gt;web&lt;/em&gt; user but given the &lt;em&gt;web&lt;/em&gt; group to allow Apache read-only access to them.  Certain content management systems (CMS) require that key subdirectories are writeable (files, cache etc.) but those exceptions can be set using &lt;em&gt;chmod 660 &amp;lt;filename&amp;gt;&lt;/em&gt;.  The generic config (/etc/httpd/conf/httpd.conf) is fairly vanilla; specialisations and vhosts live in &lt;em&gt;/etc/httpd/conf.d/&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PHP (5.3)&lt;/h5&gt;
+&lt;p&gt;This version of PHP has faster execution times and more efficient memory handling, support for closures and true anonymous functions.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend optimizer&lt;/h5&gt;
+&lt;p&gt;By default Zend optimizer is setup to compile all PHP to accelerate its execution, much like APC.  This can be configured in the Zend console&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend debugger&lt;/h5&gt;
+&lt;p&gt;You can connect your Integrated Development Environment (IDE) such as Eclipse or Komodo to the Zend debugger on port 10000.  Depending on your firewall setup, you may choose to &lt;a href=&quot;&quot;&gt;tunnel access to this service over SSH&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend console&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The Zend server console runs on its own lightweight web server (Lighttpd) on port 10081, which is exposed through the firewall to allow direct external access to the console (using a web browser) or the debugging (using an IDE, such as Zend Studio or Eclipse).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The console, like other firewalled services, can be accessed using SSH tunnels.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;mysql&quot;&gt;MySQL (5.5)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;MySQL comes in its latest general release format, to ensure the best mix of performance and reliability.  It&#039;s running on the standard port (3306 and can be accessed via a tunnelled connection or from the installed command line client (mysql).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Automated root access&lt;/h5&gt;
+&lt;p&gt;The mysql root password is setup in /root/.my.cnf which allows the [linux] root user to login to the mysql command line automatically, without being re-prompted for a password.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Configuration&lt;/h5&gt;
+&lt;p&gt;The generic config (/etc/my.cnf) is fairly vanilla; the main configuration lives in &lt;em&gt;/etc/mysql.d/domysqldb.conf&lt;/em&gt; and is broadly divided into static values (consistent for all machine types and sizes) and dynamic values that alter depending on how much memory or how many processor cores the machine is built with.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;The administrator account (root) has an initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;
+MySQL root username: root&lt;br /&gt;
+MySQL root password: admLn**&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/domysqldb&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domysqldb&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dozendserver&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dozendserver&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;Operating base (applies to CentOS and Ubuntu)&lt;/h3&gt;
+&lt;div id=&quot;node-37&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/operating-base-applies-centos-and-ubuntu&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/operating-base-applies-centos-and-ubuntu&quot;&gt;Operating base (applies to CentOS and Ubuntu)&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;Operating base (applies to CentOS and Ubuntu)&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;single_user&quot;&gt;Single user&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Each machine is setup with a single day-to-day user account (web) and a super-privileged &lt;em&gt;root&lt;/em&gt; user.  The &lt;em&gt;web&lt;/em&gt; user&#039;s home directory is in /home/web.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;ssh&quot;&gt;Secure shell (SSH)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SSH access is setup on a non-standard port (15022) to improve security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using password&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;web only, then su to root or better sudo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;web only, then su to root&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using PKI&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Public-private key pairs give excellent security and are a handy way to manage communication, both to your server and from it to other sites, such as &lt;a href=&quot;http://www.github.com&quot;&gt;github.com&lt;/a&gt;. Every Devopera server and VM comes with a private-public key pair installed.  By copying out the private key and loading it on your local host machine, you can SSH to your server without being prompted to login (instructions for &lt;a href=&quot;http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter9.html&quot;&gt;Windows/Putty/Pageant&lt;/a&gt;, &lt;a href=&quot;http://mah.everybody.org/docs/ssh&quot;&gt;Linux&lt;/a&gt; and &lt;a href=&quot;http://fplanque.com/dev/mac/secure-ssh-private-keys-on-mac-osx-10-5&quot;&gt;Mac OS X&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PKI key agent&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The private key is loaded automatically using a hardcoded passphrase.  This is very convenient for dev machines, because they can talk to other non-secure infrastructure as soon as started up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+Live and staging servers rely on the passphrase being entered the first time the &lt;em&gt;web&lt;/em&gt; user logs on.  From that point on it&#039;s stored by the ssh-agent (until the next restart or refresh of ssh-agent) and used to authenticate the machine with other servers.  It does mean that live servers require the user to enter the key passphrase before they&#039;re able to start talking, but that additional security measure helps ensure they don&#039;t go rogue.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;web&lt;/em&gt; user password: admLn**&lt;br /&gt;
+&lt;em&gt;root&lt;/em&gt; user password: devopera&lt;br /&gt;
+Key passphrase: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SFTP access&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Secure File Transfer Protocol (SFTP) is also enabled by the SSH daemon.  While almost all command-line versions of the SSH client support port (-p) and user@host settings, some older versions of SFTP don&#039;t.  However you can configure all the settings (port, user, host, even forwarding) in ~/.ssh/config which &lt;a href=&quot;http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/&quot;&gt;simplifies your command line&lt;/a&gt; (ssh &lt;hostname&gt; or sftp &lt;hostname&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;selinux&quot;&gt;Security-Enhanced Linux (SELinux)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SELinux is enabled and set to enforcing for both dev and live machine types.  All services described here are configured to work with SELinux in their current configurations.  While many sysadmins choose to disable SELinux, we prefer to start with the most secure setup we know how to create and let you make decisions about how you want to relax it.  Please see later notes on how to maintain the security of your devopera servers.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;stdtools&quot;&gt;Standard tools&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;NTP&lt;/h5&gt;
+&lt;p&gt;Network Time Protocol is used to synchronise this machine&#039;s time with network-based time servers.&lt;/p&gt;
+&lt;h5&gt;Compass&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt; is an open-source CSS Authoring Framework, mainly used to compile SASS into CSS.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;Dev tools are not installed on live servers by default.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;vcs&quot;&gt;Version control systems (VCS)&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;Git/Subversion repos&lt;/h5&gt;
+&lt;p&gt;Git and subversion are setup.  Many applications are available from repositories.  These applications are organised in the /var/www directory by the VCS they use and the server from which they are sourced:&lt;br /&gt;
+e.g. /var/www/git/github.com/my_git_repo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;samba&quot;&gt;Samba&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Samba shares are setup for the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory and &lt;em&gt;/var/www&lt;/em&gt;.  Each samba share is configured to create and modify files with a certain set of permissions: read-write for &lt;em&gt;web&lt;/em&gt; and read-only for &lt;em&gt;www-data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No matter how diligent your are, you may find certain programs set different permissions so a bit of chmod&#039;ing is often required!  To access samba using Windows file sharing, just connect to:&lt;br /&gt;
+\\&amp;lt;ip address&amp;gt;&lt;br /&gt;
+or&lt;br /&gt;
+\\&amp;lt;machine alias&amp;gt;&lt;br /&gt;
+if you&#039;ve set one up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;We don&#039;t encourage using samba for access to live machines.  While it can be enabled and port-forwarded over SSH securely, we recommend using a VCS such as git/svn for code deployment and SSH/SFTP or SCP to send files to the server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;&lt;span class=&quot;cred&quot;&gt;Credentials&lt;/span&gt;&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The &lt;em&gt;web&lt;/em&gt; user account has a corresponding but independent Samba user (web) with initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Samba username: web&lt;br /&gt;
+Samba password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The Samba service is not turned on by default for live servers or their corresponding staging peers.  It&#039;s for security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;firewall&quot;&gt;Firewall&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;h7&gt;iptables&lt;/h7&gt;
+&lt;p&gt;We restrict only the incoming port list to those services that are available.  For dev machines, your environment may be properly secured behind a firewall, so you could disable the VM&#039;s firewall by running &lt;em&gt;sudo service iptables stop&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;Live servers typically run in exposed environments or on open networks, hence our firewall policy is a lot more involved for staging VMs or live builds.&lt;/p&gt;
+&lt;h7&gt;ConfigServer Firewall (csf) and Login Failure Daemon (lfd)&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://configserver.com/cp/csf.html&quot;&gt;ConfigServer Firewall&lt;/a&gt; is setup to protect both incoming and outgoing ports.  If you want to do install new services, you must open the necessary ports in &lt;em&gt;/etc/csf/csf.conf&lt;/em&gt; and ask CSF to reload them.&lt;/p&gt;
+&lt;h7&gt;rkhunter&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://rkhunter.sourceforge.net/&quot;&gt;RootKit hunter&lt;/a&gt; is designed to identify binaries that have been corrupted with intent to compromise a server.  To run rkhunter manually (non-interactive):&lt;br /&gt;
+/usr/bin/rkhunter -c -sk&lt;br /&gt;
+After updating any of the monitored binaries, you&#039;ll need to tell rkhunter to update its database in order to avoid false positives:&lt;br /&gt;
+/usr/bin/rkhunter --propupd&lt;br /&gt;
+Finally, if you receive rkhunter&#039;s &#039;something has changed&#039; email (that reads &quot;Please inspect this machine, because it may be infected.&quot;), we recommend looking at the logs (in /var/log/rkhunter) to understand what triggered it.
+&lt;/p&gt;
+&lt;h7&gt;maldet&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rfxn.com/projects/linux-malware-detect/&quot;&gt;Linux Malware Detect&lt;/a&gt; looks for malware on a server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;dns&quot;&gt;DNS&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Currently dev machines do not offer local DNS support, but it is planned.  For now, you can always put records in your /etc/hosts file, which under Windows lives in /Windows/system32/drivers/etc/hosts.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;DNS is not configured for live servers as the domain name resolution system was not really designed for web servers to host their own DNS records.  We recommend using a registrar that provides DNS management services, like &lt;a href=&quot;http://www.domainmonster.com&quot;&gt;Domainmonster.com&lt;/a&gt; who we use.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/docommon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;docommon&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/domotd&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domotd&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dopki&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopki&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dopostfix&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopostfix&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dorepos&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dorepos&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dosamba&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dosamba&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;General information&lt;/h3&gt;
+&lt;div id=&quot;node-40&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/general-vm-information&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/general-vm-information&quot;&gt;General VM information&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;General VM information&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;For more information on how to use the virtual application (VM) you&#039;ve downloaded:&lt;br /&gt;
+&lt;a href=&quot;/content/using-devopera-vm&quot;&gt;Using a Devopera VM&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;div class=&quot;action&quot; style=&quot;margin: 2.0em 0 1.0em 0;&quot;&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-d7r016-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-d7-dev [016]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free CentOS 6 development VM to get started with Drupal right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;doco6-d7r016-dev.tar.gz (1182.8MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-d7r006-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-d7-dev [016]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free Ubuntu 12.04 development VM to get started with Drupal right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;dobu12-d7r006-dev.tar.gz (2106.1MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+
+  &lt;!-- append purchase call to action --&gt;
+  &lt;div class=&quot;action-line&quot;&gt;
+    &lt;p class=&quot;action-button action-buynow&quot;&gt;
+      &lt;a href=&quot;/product/server-install&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/buy-now-button.jpg&quot; alt=&quot;Let us install Drupal on your server for you&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Let us configure your Drupal server
+      for &amp;pound;0 &lt;span class=&quot;price-suffixes&quot;&gt;&lt;/span&gt;    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- append header buttons, for fade in --&gt;
+&lt;div class=&quot;vm-header-buttons&quot; id=&quot;selectos&quot;&gt;
+  &lt;ul class=&quot;tabs primary clearfix&quot;&gt;
+    &lt;li class=&quot;active&quot;&gt;
+      &lt;a class=&quot;active tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_centos6&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;CentOS 6&lt;/span&gt;&lt;span class=&quot;element-invisible&quot;&gt;(active tab)&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;&quot;&gt;
+      &lt;a class=&quot; tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_ubuntu1204&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;Ubuntu 12.04&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class=&quot;active pane&quot; id=&quot;pane-selectos_centos6&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-d7r016-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM doco6-d7-dev [016]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;CentOS 6 VM (doco6-d7-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add doco6-d7-dev http://devopera.com/node/0/download/centos6&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/centos6&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot; pane&quot; id=&quot;pane-selectos_ubuntu1204&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-d7r006-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM dobu12-d7-dev [006]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;Ubuntu 12.04 VM (dobu12-d7-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add dobu12-d7-dev http://devopera.com/node/0/download/ubuntu1204&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/ubuntu1204&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 01 May 2012 13:39:24 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">14 at http://devopera.com</guid>
+ <comments>http://devopera.com/applications/drupal-php#comments</comments>
+</item>
+<item>
+ <title>Django official release (Python)</title>
+ <link>http://devopera.com/applications/django-official-release-python</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;div class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-colorbox/public/product-images/django-cowboy-wider.jpg?itok=HVDKmbSI&quot; title=&quot;Django official release (Python)&quot; class=&quot;colorbox&quot; data-colorbox-gallery=&quot;gallery-node-8-vyAH4WCPehA&quot; data-cbox-img-attrs=&quot;{&amp;quot;title&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;alt&amp;quot;: &amp;quot;&amp;quot;}&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://devopera.com/sites/52_devop7/files/styles/seven-product-node/public/product-images/django-cowboy-wider.jpg?itok=4WxTbnbY&quot; width=&quot;611&quot; height=&quot;300&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;      &lt;/div&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;p class=&quot;initial&quot;&gt;Django (1.6) is a powerful rapid development web programming framework based on Python.  It was born in 2003 to serve the high-pressure deadline-centric world of an online newspaper.  Much like Python itself, its clean, elegant, pragmatic design ethos is still viewable in every new release.  The main components of Django are an ORM, auto admin interface, caching and templating engines and multi-lingual support.  This devopera build sets up a basic Django project (djangostarter) based on a full production-ready stack (Apache with mod_wsgi).  &lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Python (2.7.6)&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Django 1.6 requires Python 2.7 and does not support Python 3.x yet.  As such this build features the latest Python release (2.7.6) in the 2.7 branch.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Virtualenv (1.9.1)&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;https://pypi.python.org/pypi/virtualenv&quot;&gt;Virtual environments&lt;/a&gt; allow you to have multiple versions of Python, its projects and component libraries, all running on the same system independent of one another.  Virtualenvs are installed in &lt;em&gt;/usr/local/pythonenv/&lt;/em&gt;.  The main &lt;em&gt;web&lt;/em&gt; user&#039;s shell (.bashrc) is setup to automatically activate the &lt;em&gt;galaxy&lt;/em&gt; virtualenv, which is used for storing all the other eggs mentioned here.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;mod_wsgi (3.4)&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://code.google.com/p/modwsgi/&quot;&gt;mod_wsgi&lt;/a&gt; is an Apache module that hosts Python applications and support the WSGI interface standard.  The starter project (djangostarter) is setup to run in mod_wsgi in daemon mode, which reduces the load on Apache so lends itself to hosting high-performance applications.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;pip (1.3.1) and &lt;br /&gt;Distribute (0.6.31)&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Python eggs can be installed using either &lt;em&gt;pip&lt;/em&gt; or &lt;em&gt;easy_install&lt;/em&gt; syntax.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;South&lt;/h5&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://south.readthedocs.org/en/latest/index.html&quot;&gt;South&lt;/a&gt; handles database migrations to help manage SQL schema changes for Django applications.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;h3&gt;LAMP stack&lt;/h3&gt;
+&lt;div id=&quot;node-38&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/lamp-stack&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/lamp-stack&quot;&gt;LAMP stack&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;LAMP stack&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;zend&quot;&gt;Zend Server (5.6.0)&lt;/a&gt;&lt;/h4&gt;
+&lt;h6&gt;Dev/staging/live&lt;/h6&gt;
+&lt;p&gt;Zend make PHP.  They also formally release a partial stack for hosting PHP applications like Drupal and Wordpress.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Apache (2.2)&lt;/h5&gt;
+&lt;p&gt;Apache runs as user &lt;em&gt;web&lt;/em&gt; and group &lt;em&gt;www-data&lt;/em&gt;.  The application site files are owned by the &lt;em&gt;web&lt;/em&gt; user but given the &lt;em&gt;web&lt;/em&gt; group to allow Apache read-only access to them.  Certain content management systems (CMS) require that key subdirectories are writeable (files, cache etc.) but those exceptions can be set using &lt;em&gt;chmod 660 &amp;lt;filename&amp;gt;&lt;/em&gt;.  The generic config (/etc/httpd/conf/httpd.conf) is fairly vanilla; specialisations and vhosts live in &lt;em&gt;/etc/httpd/conf.d/&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PHP (5.3)&lt;/h5&gt;
+&lt;p&gt;This version of PHP has faster execution times and more efficient memory handling, support for closures and true anonymous functions.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend optimizer&lt;/h5&gt;
+&lt;p&gt;By default Zend optimizer is setup to compile all PHP to accelerate its execution, much like APC.  This can be configured in the Zend console&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend debugger&lt;/h5&gt;
+&lt;p&gt;You can connect your Integrated Development Environment (IDE) such as Eclipse or Komodo to the Zend debugger on port 10000.  Depending on your firewall setup, you may choose to &lt;a href=&quot;&quot;&gt;tunnel access to this service over SSH&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Zend console&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The Zend server console runs on its own lightweight web server (Lighttpd) on port 10081, which is exposed through the firewall to allow direct external access to the console (using a web browser) or the debugging (using an IDE, such as Zend Studio or Eclipse).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The console, like other firewalled services, can be accessed using SSH tunnels.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;mysql&quot;&gt;MySQL (5.5)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;MySQL comes in its latest general release format, to ensure the best mix of performance and reliability.  It&#039;s running on the standard port (3306 and can be accessed via a tunnelled connection or from the installed command line client (mysql).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Automated root access&lt;/h5&gt;
+&lt;p&gt;The mysql root password is setup in /root/.my.cnf which allows the [linux] root user to login to the mysql command line automatically, without being re-prompted for a password.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Configuration&lt;/h5&gt;
+&lt;p&gt;The generic config (/etc/my.cnf) is fairly vanilla; the main configuration lives in &lt;em&gt;/etc/mysql.d/domysqldb.conf&lt;/em&gt; and is broadly divided into static values (consistent for all machine types and sizes) and dynamic values that alter depending on how much memory or how many processor cores the machine is built with.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;The administrator account (root) has an initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;
+MySQL root username: root&lt;br /&gt;
+MySQL root password: admLn**&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/domysqldb&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domysqldb&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dozendserver&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dozendserver&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;Operating base&lt;/h3&gt;
+&lt;div id=&quot;node-37&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/operating-base-applies-centos-and-ubuntu&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/operating-base-applies-centos-and-ubuntu&quot;&gt;Operating base (applies to CentOS and Ubuntu)&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;Operating base (applies to CentOS and Ubuntu)&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;single_user&quot;&gt;Single user&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Each machine is setup with a single day-to-day user account (web) and a super-privileged &lt;em&gt;root&lt;/em&gt; user.  The &lt;em&gt;web&lt;/em&gt; user&#039;s home directory is in /home/web.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;ssh&quot;&gt;Secure shell (SSH)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SSH access is setup on a non-standard port (15022) to improve security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using password&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;web only, then su to root or better sudo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;web only, then su to root&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SSH access using PKI&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Public-private key pairs give excellent security and are a handy way to manage communication, both to your server and from it to other sites, such as &lt;a href=&quot;http://www.github.com&quot;&gt;github.com&lt;/a&gt;. Every Devopera server and VM comes with a private-public key pair installed.  By copying out the private key and loading it on your local host machine, you can SSH to your server without being prompted to login (instructions for &lt;a href=&quot;http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter9.html&quot;&gt;Windows/Putty/Pageant&lt;/a&gt;, &lt;a href=&quot;http://mah.everybody.org/docs/ssh&quot;&gt;Linux&lt;/a&gt; and &lt;a href=&quot;http://fplanque.com/dev/mac/secure-ssh-private-keys-on-mac-osx-10-5&quot;&gt;Mac OS X&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;PKI key agent&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The private key is loaded automatically using a hardcoded passphrase.  This is very convenient for dev machines, because they can talk to other non-secure infrastructure as soon as started up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+Live and staging servers rely on the passphrase being entered the first time the &lt;em&gt;web&lt;/em&gt; user logs on.  From that point on it&#039;s stored by the ssh-agent (until the next restart or refresh of ssh-agent) and used to authenticate the machine with other servers.  It does mean that live servers require the user to enter the key passphrase before they&#039;re able to start talking, but that additional security measure helps ensure they don&#039;t go rogue.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;Credentials&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;web&lt;/em&gt; user password: admLn**&lt;br /&gt;
+&lt;em&gt;root&lt;/em&gt; user password: devopera&lt;br /&gt;
+Key passphrase: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;SFTP access&lt;/h5&gt;
+&lt;p class=&quot;h5&quot;&gt;Secure File Transfer Protocol (SFTP) is also enabled by the SSH daemon.  While almost all command-line versions of the SSH client support port (-p) and user@host settings, some older versions of SFTP don&#039;t.  However you can configure all the settings (port, user, host, even forwarding) in ~/.ssh/config which &lt;a href=&quot;http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/&quot;&gt;simplifies your command line&lt;/a&gt; (ssh &lt;hostname&gt; or sftp &lt;hostname&gt;).&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;selinux&quot;&gt;Security-Enhanced Linux (SELinux)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;SELinux is enabled and set to enforcing for both dev and live machine types.  All services described here are configured to work with SELinux in their current configurations.  While many sysadmins choose to disable SELinux, we prefer to start with the most secure setup we know how to create and let you make decisions about how you want to relax it.  Please see later notes on how to maintain the security of your devopera servers.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;stdtools&quot;&gt;Standard tools&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;NTP&lt;/h5&gt;
+&lt;p&gt;Network Time Protocol is used to synchronise this machine&#039;s time with network-based time servers.&lt;/p&gt;
+&lt;h5&gt;Compass&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev-staging pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev/staging&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt; is an open-source CSS Authoring Framework, mainly used to compile SASS into CSS.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-live&quot;&gt;
+&lt;h6&gt;Live&lt;/h6&gt;
+&lt;p&gt;Dev tools are not installed on live servers by default.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;vcs&quot;&gt;Version control systems (VCS)&lt;/a&gt;&lt;/h4&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;h5&gt;Git/Subversion repos&lt;/h5&gt;
+&lt;p&gt;Git and subversion are setup.  Many applications are available from repositories.  These applications are organised in the /var/www directory by the VCS they use and the server from which they are sourced:&lt;br /&gt;
+e.g. /var/www/git/github.com/my_git_repo&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;samba&quot;&gt;Samba&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Samba shares are setup for the &lt;em&gt;web&lt;/em&gt; user&#039;s home directory and &lt;em&gt;/var/www&lt;/em&gt;.  Each samba share is configured to create and modify files with a certain set of permissions: read-write for &lt;em&gt;web&lt;/em&gt; and read-only for &lt;em&gt;www-data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No matter how diligent your are, you may find certain programs set different permissions so a bit of chmod&#039;ing is often required!  To access samba using Windows file sharing, just connect to:&lt;br /&gt;
+\\&amp;lt;ip address&amp;gt;&lt;br /&gt;
+or&lt;br /&gt;
+\\&amp;lt;machine alias&amp;gt;&lt;br /&gt;
+if you&#039;ve set one up.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;We don&#039;t encourage using samba for access to live machines.  While it can be enabled and port-forwarded over SSH securely, we recommend using a VCS such as git/svn for code deployment and SSH/SFTP or SCP to send files to the server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h5&gt;&lt;span class=&quot;cred&quot;&gt;Credentials&lt;/span&gt;&lt;/h5&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;The &lt;em&gt;web&lt;/em&gt; user account has a corresponding but independent Samba user (web) with initial password &#039;admLn**&#039;.  Usernames and passwords are case sensitive.&lt;br /&gt;&lt;br /&gt;
+Samba username: web&lt;br /&gt;
+Samba password: admLn**&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/Live&lt;/h6&gt;
+&lt;p&gt;The Samba service is not turned on by default for live servers or their corresponding staging peers.  It&#039;s for security.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;firewall&quot;&gt;Firewall&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;h7&gt;iptables&lt;/h7&gt;
+&lt;p&gt;We restrict only the incoming port list to those services that are available.  For dev machines, your environment may be properly secured behind a firewall, so you could disable the VM&#039;s firewall by running &lt;em&gt;sudo service iptables stop&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;Live servers typically run in exposed environments or on open networks, hence our firewall policy is a lot more involved for staging VMs or live builds.&lt;/p&gt;
+&lt;h7&gt;ConfigServer Firewall (csf) and Login Failure Daemon (lfd)&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://configserver.com/cp/csf.html&quot;&gt;ConfigServer Firewall&lt;/a&gt; is setup to protect both incoming and outgoing ports.  If you want to do install new services, you must open the necessary ports in &lt;em&gt;/etc/csf/csf.conf&lt;/em&gt; and ask CSF to reload them.&lt;/p&gt;
+&lt;h7&gt;rkhunter&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://rkhunter.sourceforge.net/&quot;&gt;RootKit hunter&lt;/a&gt; is designed to identify binaries that have been corrupted with intent to compromise a server.  To run rkhunter manually (non-interactive):&lt;br /&gt;
+/usr/bin/rkhunter -c -sk&lt;br /&gt;
+After updating any of the monitored binaries, you&#039;ll need to tell rkhunter to update its database in order to avoid false positives:&lt;br /&gt;
+/usr/bin/rkhunter --propupd&lt;br /&gt;
+Finally, if you receive rkhunter&#039;s &#039;something has changed&#039; email (that reads &quot;Please inspect this machine, because it may be infected.&quot;), we recommend looking at the logs (in /var/log/rkhunter) to understand what triggered it.
+&lt;/p&gt;
+&lt;h7&gt;maldet&lt;/h7&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rfxn.com/projects/linux-malware-detect/&quot;&gt;Linux Malware Detect&lt;/a&gt; looks for malware on a server.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;h4&gt;&lt;a name=&quot;dns&quot;&gt;DNS&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;pane pane-dev pane-leftmost&quot;&gt;
+&lt;h6&gt;Dev&lt;/h6&gt;
+&lt;p&gt;Currently dev machines do not offer local DNS support, but it is planned.  For now, you can always put records in your /etc/hosts file, which under Windows lives in /Windows/system32/drivers/etc/hosts.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;div class=&quot;pane pane-staging-live&quot;&gt;
+&lt;h6&gt;Staging/live&lt;/h6&gt;
+&lt;p&gt;DNS is not configured for live servers as the domain name resolution system was not really designed for web servers to host their own DNS records.  We recommend using a registrar that provides DNS management services, like &lt;a href=&quot;http://www.domainmonster.com&quot;&gt;Domainmonster.com&lt;/a&gt; who we use.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /pane --&gt;
+&lt;/div&gt;&lt;!-- /row --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/docommon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;docommon&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/domotd&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;domotd&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dopki&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopki&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dopostfix&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dopostfix&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/dorepos&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dorepos&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/module/dosamba&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;dosamba&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;h3&gt;General information&lt;/h3&gt;
+&lt;div id=&quot;node-40&quot; class=&quot;node node-page view-mode-full clearfix&quot; about=&quot;/content/general-vm-information&quot; typeof=&quot;foaf:Document&quot;&gt;
+
+  
+        &lt;h2 class=&quot;node-title&quot;&gt;&lt;a href=&quot;/content/general-vm-information&quot;&gt;General VM information&lt;/a&gt;&lt;/h2&gt;
+    &lt;span property=&quot;dc:title&quot; content=&quot;General VM information&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;&lt;span property=&quot;sioc:num_replies&quot; content=&quot;0&quot; datatype=&quot;xsd:integer&quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;
+  
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;For more information on how to use the virtual application (VM) you&#039;ve downloaded:&lt;br /&gt;
+&lt;a href=&quot;/content/using-devopera-vm&quot;&gt;Using a Devopera VM&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  
+  
+&lt;/div&gt;&lt;!-- /.node --&gt;
+
+&lt;div class=&quot;action&quot; style=&quot;margin: 2.0em 0 1.0em 0;&quot;&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-dj1offr006-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-dj1off-dev [006]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free CentOS 6 development VM to get started with Django right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;doco6-dj1offr006-dev.tar.gz (1114.8MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+  &lt;div class=&quot;action-line action-line-notlast&quot;&gt;
+    &lt;p class=&quot;action-button action-download&quot;&gt;
+      &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-dj1offr002-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from action)&#039;, &#039;VM doco6-dj1off-dev [006]&#039;]);&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/download-vm-button.jpg&quot; alt=&quot;Download a free Devopera VM&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Download a free Ubuntu 12.04 development VM to get started with Django right away&lt;br /&gt;
+      &lt;span class=&quot;subline&quot;&gt;dobu12-dj1offr002-dev.tar.gz (1582.9MB)&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+
+  &lt;!-- append purchase call to action --&gt;
+  &lt;div class=&quot;action-line&quot;&gt;
+    &lt;p class=&quot;action-button action-buynow&quot;&gt;
+      &lt;a href=&quot;/product/server-install&quot;&gt;&lt;img src=&quot;/sites/all/themes/devop/extra-images/buy-now-button.jpg&quot; alt=&quot;Let us install Django on your server for you&quot; /&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;action-para&quot;&gt;
+      Let us configure your Django server
+      for &amp;pound;0 &lt;span class=&quot;price-suffixes&quot;&gt;&lt;/span&gt;    &lt;/p&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- append header buttons, for fade in --&gt;
+&lt;div class=&quot;vm-header-buttons&quot; id=&quot;selectos&quot;&gt;
+  &lt;ul class=&quot;tabs primary clearfix&quot;&gt;
+    &lt;li class=&quot;active&quot;&gt;
+      &lt;a class=&quot;active tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_centos6&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;CentOS 6&lt;/span&gt;&lt;span class=&quot;element-invisible&quot;&gt;(active tab)&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;&quot;&gt;
+      &lt;a class=&quot; tab-selectos&quot; href=&quot;#&quot; id=&quot;tab-selectos_ubuntu1204&quot;&gt;
+        &lt;span class=&quot;tab&quot;&gt;Ubuntu 12.04&lt;/span&gt;      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class=&quot;active pane&quot; id=&quot;pane-selectos_centos6&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/doco6-dj1offr006-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM doco6-dj1off-dev [006]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;CentOS 6 VM (doco6-dj1off-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add doco6-dj1off-dev http://devopera.com/node/0/download/centos6&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/centos6&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot; pane&quot; id=&quot;pane-selectos_ubuntu1204&quot;&gt;
+    &lt;div class=&quot;download-button&quot;&gt;
+    &lt;a href=&quot;http://files.devopera.com/vms/pub/dobu12-dj1offr002-dev.tar.gz&quot; onClick=&quot;_gaq.push([&#039;_trackEvent&#039;, &#039;VM&#039;, &#039;Download (from header)&#039;, &#039;VM dobu12-dj1off-dev [002]&#039;]);&quot;&gt;
+      &lt;span class=&quot;main&quot;&gt;Download Now&lt;/span&gt;
+      &lt;span class=&quot;sub&quot;&gt;Ubuntu 12.04 VM (dobu12-dj1off-dev.tar.gz)&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;vagrant-box&quot;&gt;
+      &lt;p&gt;Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:&lt;/p&gt;
+      &lt;input type=&quot;text&quot; value=&quot;vagrant box add dobu12-dj1off-dev http://devopera.com/node/0/download/ubuntu1204&quot; readonly=&quot;readonly&quot; /&gt;
+      &lt;span id=&quot;copy-button&quot; class=&quot;js-zeroclipboard&quot; data-clipboard-text=&quot;http://devopera.com/node/0/download/ubuntu1204&quot; data-copied-hint=&quot;copied to clipboard&quot; title=&quot;copy to clipboard&quot;&gt;...&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 23 Apr 2012 17:58:46 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">8 at http://devopera.com</guid>
+ <comments>http://devopera.com/applications/django-official-release-python#comments</comments>
+</item>
+</channel>
+</rss>

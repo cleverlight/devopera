@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://devopera.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>devopera - docsf</title>
+ <link>http://devopera.com/module/docsf</link>
+ <description>ConfigServer Firewall (csf) and Login Failure Daemon (lfd) are designed to protect online servers by providing an adaptive firewall and access/process monitoring service.  CSF in turn uses IPtables to actually implement the firewall rules.  This module also includes Linux Malware Detect (maldet) for detecting malware.  CSF is used on live and staging builds to protect servers that run on open networks.
+Puppet Forge module | Open-source project on GitHub | Issue tracker
+
+
+
+</description>
+ <language>en</language>
+<item>
+ <title>What LFD emails really mean</title>
+ <link>http://devopera.com/blog/2013/10/07/what-lfd-emails-really-mean</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; rel=&quot;og:image rdfs:seeAlso&quot; resource=&quot;http://devopera.com/sites/52_devop7/files/field/image/lfd_alert_message_meaning_heartbeat.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://devopera.com/sites/52_devop7/files/field/image/lfd_alert_message_meaning_heartbeat.jpg&quot; width=&quot;939&quot; height=&quot;370&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Our live server builds use ConfigServer Firewall (CSF) and Login Failure Daemon (LFD) to firewall your servers and monitor activity on them. LFD is particularly effective at monitoring the system to identify anything unusual. It&#039;s a little cryptic sometimes and the tone of the emails can be dramatic, but on balance it&#039;s always telling you useful stuff about what&#039;s happening in a data centre, far far away.&lt;/p&gt;
+&lt;h3&gt;Excessive resource usage&lt;/h3&gt;
+&lt;p&gt;This depends on the process. If the process is /bin/bash, it means someone logged into the server then left their login window open for a long time. That&#039;s easily done and rarely a concern. If on the other hand you see other processes running for a long term, it&#039;s a good indicator that something has crashed or isn&#039;t running properly, so worth investigating.&lt;/p&gt;
+&lt;h3&gt;System Integrity checking detected a modified system file&lt;/h3&gt;
+&lt;p&gt;System files should only change as part of an upgrade. If this message is preceded by an upgrade notice, then it makes logical sense that those binaries will be flagged by System Integrity checking. e.g. Following CSF upgrading from 6.35 to 6.36 these two failure warnings were to be expected&lt;/p&gt;
+&lt;p&gt;/usr/sbin/csf: FAILED&lt;br /&gt;
+/usr/sbin/lfd: FAILED&lt;/p&gt;
+&lt;h3&gt;Regular misplaced warnings
+&lt;/h3&gt;&lt;p&gt;Every upgrade of CSF will trigger a warning email like the one above.  This leads to pairs of emails (the original upgrade message, followed by the warning) that are safe to ignore because they occur together.  Now that&#039;s a very difficult challenge for an email filter!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-modules field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Modules:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/module/docsf&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;docsf&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 07 Oct 2013 12:49:52 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">59 at http://devopera.com</guid>
+ <comments>http://devopera.com/blog/2013/10/07/what-lfd-emails-really-mean#comments</comments>
+</item>
+</channel>
+</rss>

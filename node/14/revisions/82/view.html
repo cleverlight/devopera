@@ -1,0 +1,651 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../../../../sites/all/themes/devop/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Drupal () is an open source CMS fuelled by an extraordinary community and there&#039;s some fantastic help available to get you started. This devopera build features everything you need to start using Drupal right away. The Drupal site is installed in , it connects to a local fresh database (see credentials) and this build is initially entitled &#039;&#039;. There&#039;s a symlink in the user&#039;s home directory making it straight forward to start installing modules using either Samba or SSH. Logging in with a web browser Dev/staging/live Simply enter the IP address of your server or VM into the address bar of your web browser. There&#039;s also a drupal. vhost setup, but it&#039;s the first and therefore default entry. Drush () Dev/staging/live Described as the Swiss Army knife of Drupal administration, drush is installed to give those who prefer it command line access. Use SSH (see below) to gain command line access. Credentials Dev/staging The administrator user account () has an initial password &#039;&#039;. Usernames and passwords are case sensitive. Drupal username: Drupal password: DB name: DB username: DB password: Live All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery. LAMP stack Operating base General information" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="view.html" />
+<link rel="shortlink" href="view.html" />
+<meta property="og:site_name" content="devopera" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://devopera.com/node/14/revisions/82/view" />
+<meta property="og:title" content="Drupal 7 (PHP)" />
+<meta property="og:description" content="Drupal () is an open source CMS fuelled by an extraordinary community and there&#039;s some fantastic help available to get you started. This devopera build features everything you need to start using Drupal right away. The Drupal site is installed in , it connects to a local fresh database (see credentials) and this build is initially entitled &#039;&#039;. There&#039;s a symlink in the user&#039;s home directory making it straight forward to start installing modules using either Samba or SSH. Logging in with a web browser Dev/staging/live Simply enter the IP address of your server or VM into the address bar of your web browser. There&#039;s also a drupal. vhost setup, but it&#039;s the first and therefore default entry. Drush () Dev/staging/live Described as the Swiss Army knife of Drupal administration, drush is installed to give those who prefer it command line access. Use SSH (see below) to gain command line access. Credentials Dev/staging The administrator user account () has an initial password &#039;&#039;. Usernames and passwords are case sensitive. Drupal username: Drupal password: DB name: DB username: DB password: Live All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery. LAMP stack Operating base General information" />
+<meta property="og:image" content="http://devopera.com/sites/52_devop7/files/product-images/drupal.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@lightenna" />
+<meta name="twitter:site:id" content="190991221" />
+<meta name="twitter:creator" content="@lightenna" />
+<meta name="twitter:creator:id" content="190991221" />
+<meta name="twitter:title" content="Drupal 7 (PHP)" />
+<meta name="twitter:url" content="http://devopera.com/node/14/revisions/82/view" />
+<meta name="twitter:description" content="Drupal () is an open source CMS fuelled by an extraordinary community and there&#039;s some fantastic help available to get you started. This devopera build features everything you need to start using Drupal right away. The Drupal site is installed in , it connects to a local fresh database (see credentials) and this build is initially entitled &#039;&#039;. There&#039;s a symlink in the user&#039;s home directory making it straight forward to start installing modules using either Samba or SSH. Logging in with a web browser Dev/staging/live Simply enter the IP address of your server or VM into the address bar of your web browser. There&#039;s also a drupal. vhost setup, but it&#039;s the first and therefore default entry. Drush () Dev/staging/live Described as the Swiss Army knife of Drupal administration, drush is installed to give those who prefer it command line access. Use SSH (see below) to gain command line access. Credentials Dev/staging The administrator user account () has an initial password &#039;&#039;. Usernames and passwords are case sensitive. Drupal username: Drupal password: DB name: DB username: DB password: Live All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery. LAMP stack Operating base General information" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1, user-scalable=no" />
+  <title>Drupal 7 (PHP) | devopera</title>
+  <link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_1tDoGCnviqjN1GezTZdiCngobRx_BZrR-L8ymzgYuXk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_Ta1SzwnnEkmWjWZKxtqYO42-OWMLnkz6ok91LEHgOd0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_rXjKoRXkhktAlx70ihlzD9kpkW3hl0pPyXJ_IV_aWnU.css" media="screen,projection" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_ojCBz61tGG6FrAT8z2ZuzLsfohalDPZeRLtBHUyzURo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY.css" media="print" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_9C2WWHryncBzGyedjlt8H0tP9OQHJ_QcUyPui5j-mF8.css" media="(min-width: 479px)" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_U3JXpR8-28WJoa-PSY3qSLLclgYne2XcMsZhTClYmV0.css" media="(min-width: 767px)" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_RNXc-m4ZDnAR4gDgQ9C9m9fVR1iuBwr81JNfkJ-rsLc.css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_fe1eQ1W4twOAJ62S1Vj0BQI-v81Q5Y6rhnsB83A53sI.css" media="(min-width: 1120px)" />
+<link type="text/css" rel="stylesheet" href="../../../../sites/52_devop7/files/css/css_-0XqtF8QXaDcUxIP-mJN2Su3hCnByminQC9d3kzLeXE.css" media="screen" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://devopera.com/sites/52_devop7/files/css/css_VrhsNmVs4-eaFP1mYtRYFnAntR5HdDni1zI39A1ufYQ.css" media="all" />
+<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <script type="text/javascript" src="../../../../sites/52_devop7/files/js/js_WkOMkSyjg9rxsesVK2mUAVX_dhZTWbIE6jpIzuL-ygM.js"></script>
+<script type="text/javascript" src="../../../../sites/52_devop7/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+<script type="text/javascript" src="../../../../sites/52_devop7/files/js/js_Tara6P9uT594-_qjPscsHtIBR-wCHuBKdyOooNFP5Ec.js"></script>
+<script type="text/javascript" src="../../../../sites/52_devop7/files/js/js_C7odhhZJa2N9APluRQBKdkp7u-qXx7X8iLRFLRNPcbU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"devop","theme_token":"jq5g9iwXThU6Rafc7FNIzd9M5OffqSyizfTFwm2iXiw","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.js":1,"sites\/all\/themes\/devop\/extra-js\/vm-header-buttons.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/jump-menu.js":1,"sites\/all\/themes\/devop\/js\/jquery-1.7.1.min.js":1,"sites\/all\/themes\/devop\/js\/scrollTo.js":1,"sites\/all\/themes\/devop\/js\/menu.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_order\/uc_order.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_product\/uc_product.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_store\/uc_store.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/widgets\/widgets.css":1,"sites\/all\/themes\/devop\/css\/blueprint\/screen.css":1,"sites\/all\/themes\/devop\/css\/wireframes.css":1,"sites\/all\/themes\/devop\/css\/layout-fixed.css":1,"sites\/all\/themes\/devop\/css\/page-backgrounds.css":1,"sites\/all\/themes\/devop\/css\/tabs.css":1,"sites\/all\/themes\/devop\/css\/pages.css":1,"sites\/all\/themes\/devop\/css\/blocks.css":1,"sites\/all\/themes\/devop\/css\/navigation.css":1,"sites\/all\/themes\/devop\/css\/views-styles.css":1,"sites\/all\/themes\/devop\/css\/nodes.css":1,"sites\/all\/themes\/devop\/css\/comments.css":1,"sites\/all\/themes\/devop\/css\/forms.css":1,"sites\/all\/themes\/devop\/css\/fields.css":1,"sites\/all\/themes\/devop\/nivo\/nivo-slider.css":1,"sites\/all\/themes\/devop\/css\/seven_common.css":1,"sites\/all\/themes\/devop\/css\/responsive-mobile-portrait-layout.css":1,"sites\/all\/themes\/devop\/css\/seven_colors.css":1,"sites\/all\/themes\/devop\/css\/print.css":1,"sites\/all\/themes\/devop\/css\/responsive-mobile-landscape-layout.css":1,"sites\/all\/themes\/devop\/css\/responsive-tablet-layout.css":1,"sites\/all\/themes\/devop\/css\/responsive-screen-layout.css":1,"sites\/all\/themes\/devop\/css\/responsive-wide-layout.css":1,"sites\/all\/themes\/devop\/extra-css\/tweaks.css":1,"sites\/all\/themes\/devop\/extra-css\/additions.css":1,"sites\/all\/themes\/devop\/css\/ie-responsive-mobile-landscape-layout.css":1,"sites\/all\/themes\/devop\/css\/ie-responsive-tablet-layout.css":1,"sites\/all\/themes\/devop\/css\/ie-responsive-screen-layout.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"common_bottom":{"pathToTheme":"sites\/all\/themes\/devop"},"urlIsAjaxTrusted":{"\/node\/14\/revisions\/82\/view":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-14 page-node-revisions page-node-revisions- page-node-revisions-82 page-node-revisions-view node-type-seven-product section-node" >
+  <div class="second-body">
+    <div id="skip-link">
+      <a href="view.html#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+    </div>
+        
+<div id="page-wrapper"><div id="page">
+
+  <header><div class="section clearfix">
+
+          <a href="../../../../index.html" title="Home" rel="home" id="logo"><img src="../../../../sites/all/themes/devop/logo.png" alt="Home" /></a>
+	  <a href="../../../../index.html" title="Home" rel="home" id="mobile-logo"><img src="../../../../sites/all/themes/devop/logo.png" alt="Home" /></a>
+    
+    
+      <div class="region region-header">
+    <div id="block-system-main-menu" class="block block-system block-menu first odd">
+
+      
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../../../../index.html">Home</a></li>
+<li class="expanded"><a href="../../../../applications.html" title="">Applications</a><ul class="menu"><li class="first leaf"><a href="../../../8.html">Django</a></li>
+<li class="leaf"><a href="../../../14.html">Drupal 7</a></li>
+<li class="leaf"><a href="../../../54.html">Nagios</a></li>
+<li class="last leaf"><a href="../../../66.html">Redmine</a></li>
+</ul></li>
+<li class="expanded"><a href="../../../../stacks.html" title="">Stacks</a><ul class="menu"><li class="first last leaf"><a href="../../../63.html">LAMP</a></li>
+</ul></li>
+<li class="leaf"><a href="../../../../blog.html" title="Read our Latest News.">Blog</a></li>
+<li class="last leaf"><a href="../../../../contact.html" title="Get in touch with us.">Contact us</a></li>
+</ul>  </div>
+
+</div><!-- /.block -->
+<div id="block-jump-menu-jump-menu-m-main-menu" class="block block-jump-menu last even">
+
+      
+  <div class="content">
+    <form action="view.html" method="post" id="ctools-jump-menu--2" accept-charset="UTF-8"><div><div class="container-inline"><div class="form-item form-type-select form-item-jump">
+ <select class="ctools-jump-menu-select ctools-jump-menu-change form-select" id="edit-jump--2" name="jump"><option value="" selected="selected">Main menu</option><option value="/" class="d-1">Home</option><option value="/applications" class="d-1">Applications</option><option value="/applications/django-official-release-python" class="d-2"> - Django</option><option value="/applications/drupal-php" class="d-2"> - Drupal 7</option><option value="/applications/nagios-and-puppetmaster-puppetdb" class="d-2"> - Nagios</option><option value="/applications/redmine-ruby-rails" class="d-2"> - Redmine</option><option value="/stacks" class="d-1">Stacks</option><option value="/applications/linux-apache-mysql-php-lamp" class="d-2"> - LAMP</option><option value="/blog" class="d-1">Blog</option><option value="/contact" class="d-1">Contact us</option></select>
+</div>
+<input class="ctools-jump-menu-button ctools-jump-menu-hide form-submit" type="submit" id="edit-go--2" name="op" value="Go" /></div><input type="hidden" name="form_build_id" value="form-UzHI17Rn3gErzvY4lgm_NqzabS2zpuPq_Z6WcVUgBO8" />
+<input type="hidden" name="form_id" value="ctools_jump_menu" />
+</div></form>  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+	
+  </div></header><!-- /.section, /#header -->
+
+  <div id="main-wrapper"><div id="main" class="clearfix">
+
+    <div class="breadcrumb"><h2 class="element-invisible">You are here</h2><a href="../../../../index.html">Home</a> › <a href="../../../14.html">Drupal 7 (PHP)</a> › <a href="../../revisions.html">Revisions</a> › </div>  
+      
+    <section id="content" class="column"><div class="section">
+            
+      <a id="main-content"></a>
+                    <h1 class="title" id="page-title">Revision of <em class="placeholder">Drupal 7 (PHP)</em> from <em class="placeholder">Sat, 04/12/2014 - 13:00</em></h1>
+                                            <div class="region region-content">
+    <div id="block-system-main" class="block block-system first last odd">
+
+      
+  <div class="content">
+    <div id="node-14" class="node node-seven-product node-promoted node-unpublished view-mode-full clearfix" about="/applications/drupal-php" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Drupal 7 (PHP)" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="unpublished">Unpublished</div>
+  
+  
+  <div class="content">
+    <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">
+        <a href="../../../../sites/52_devop7/files/styles/seven-product-colorbox/public/product-images/drupal.jpg%3Fitok=EO162KEo" title="Drupal 7 (PHP)" class="colorbox" data-colorbox-gallery="gallery-node-14-dG2amKQpD9M" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="../../../../sites/52_devop7/files/styles/seven-product-node/public/product-images/drupal.jpg%3Fitok=eyFKsRwW" width="611" height="300" alt="" title="" /></a>      </div>
+      </div>
+</div>
+
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">
+<p class="initial">Drupal (7.26) is an open source CMS fuelled by an extraordinary community and there's some <a href="http://drupal.org/getting-started/7/admin">fantastic help available to get you started</a>.  This devopera build features everything you need to start using Drupal right away.  The Drupal site is installed in <em>/var/www/html/drupal-7</em>, it connects to a local fresh database (see credentials) and this build is initially entitled 'Devopera Drupal Demo'.  There's a symlink in the <em>web</em> user's home directory making it straight forward to start installing modules using either Samba or SSH.</p>
+
+<div class="row">
+<h5>Logging in with a web browser</h5>
+<h6>Dev/staging/live</h6>
+<p>Simply enter the IP address of your server or VM into the address bar of your web browser.  There's also a drupal.&lt;hostname&gt; vhost setup, but it's the first and therefore default entry.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Drush (6.2)</h5>
+<h6>Dev/staging/live</h6>
+<p>Described as the Swiss Army knife of Drupal administration, <em>drush</em> is installed to give those who prefer it command line access.  Use SSH (<a href="view.html#ssh">see below</a>) to gain command line access.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Credentials</h5>
+<div class="pane pane-dev-staging pane-leftmost">
+<h6>Dev/staging</h6>
+<p>The administrator user account (admin) has an initial password 'admLn**'.  Usernames and passwords are case sensitive.<br /><br />
+Drupal username: admin<br />
+Drupal password: admLn**<br />
+DB name: dodrupal<br />
+DB username: dodrupal<br />
+DB password: admLn**</p>
+</div><!-- /pane -->
+<div class="pane pane-live">
+<h6>Live</h6>
+<p>All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<h3>LAMP stack</h3>
+<div id="node-38" class="node node-page view-mode-full clearfix" about="/content/lamp-stack" typeof="foaf:Document">
+
+  
+        <h2 class="node-title"><a href="../../../38.html">LAMP stack</a></h2>
+    <span property="dc:title" content="LAMP stack" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">
+<div class="row">
+<h4><a name="zend">Zend Server (5.6.0)</a></h4>
+<h6>Dev/staging/live</h6>
+<p>Zend make PHP.  They also formally release a partial stack for hosting PHP applications like Drupal and Wordpress.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Apache (2.2)</h5>
+<p>Apache runs as user <em>web</em> and group <em>www-data</em>.  The application site files are owned by the <em>web</em> user but given the <em>web</em> group to allow Apache read-only access to them.  Certain content management systems (CMS) require that key subdirectories are writeable (files, cache etc.) but those exceptions can be set using <em>chmod 660 &lt;filename&gt;</em>.  The generic config (/etc/httpd/conf/httpd.conf) is fairly vanilla; specialisations and vhosts live in <em>/etc/httpd/conf.d/</em>.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>PHP (5.3)</h5>
+<p>This version of PHP has faster execution times and more efficient memory handling, support for closures and true anonymous functions.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Zend optimizer</h5>
+<p>By default Zend optimizer is setup to compile all PHP to accelerate its execution, much like APC.  This can be configured in the Zend console</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Zend debugger</h5>
+<p>You can connect your Integrated Development Environment (IDE) such as Eclipse or Komodo to the Zend debugger on port 10000.  Depending on your firewall setup, you may choose to <a href="view.html">tunnel access to this service over SSH</a>.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Zend console</h5>
+<div class="pane pane-dev pane-leftmost">
+<h6>Dev</h6>
+<p>The Zend server console runs on its own lightweight web server (Lighttpd) on port 10081, which is exposed through the firewall to allow direct external access to the console (using a web browser) or the debugging (using an IDE, such as Zend Studio or Eclipse).</p>
+</div>
+<div class="pane pane-staging-live">
+<h6>Staging/Live</h6>
+<p>The console, like other firewalled services, can be accessed using SSH tunnels.</p>
+</div>
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="mysql">MySQL (5.5)</a></h4>
+<p>MySQL comes in its latest general release format, to ensure the best mix of performance and reliability.  It's running on the standard port (3306 and can be accessed via a tunnelled connection or from the installed command line client (mysql).</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Automated root access</h5>
+<p>The mysql root password is setup in /root/.my.cnf which allows the [linux] root user to login to the mysql command line automatically, without being re-prompted for a password.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Configuration</h5>
+<p>The generic config (/etc/my.cnf) is fairly vanilla; the main configuration lives in <em>/etc/mysql.d/domysqldb.conf</em> and is broadly divided into static values (consistent for all machine types and sizes) and dynamic values that alter depending on how much memory or how many processor cores the machine is built with.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>Credentials</h5>
+<div class="pane pane-dev-staging pane-leftmost">
+<h6>Dev/staging</h6>
+<p>The administrator account (root) has an initial password 'admLn**'.  Usernames and passwords are case sensitive.<br />
+MySQL root username: root<br />
+MySQL root password: admLn**</p>
+</div>
+<div class="pane pane-live">
+<h6>Live</h6>
+<p>All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.</p>
+</div>
+</div><!-- /row --></div></div></div><div class="field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="../../../../taxonomy/term/8.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">domysqldb</a></div><div class="field-item odd"><a href="../../../../taxonomy/term/13.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">dozendserver</a></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+<h3>Operating base</h3>
+<div id="node-37" class="node node-page view-mode-full clearfix" about="/content/operating-base-applies-centos-and-ubuntu" typeof="foaf:Document">
+
+  
+        <h2 class="node-title"><a href="../../../37.html">Operating base (applies to CentOS and Ubuntu)</a></h2>
+    <span property="dc:title" content="Operating base (applies to CentOS and Ubuntu)" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">
+<div class="row">
+<h4><a name="single_user">Single user</a></h4>
+<p>Each machine is setup with a single day-to-day user account (web) and a super-privileged <em>root</em> user.  The <em>web</em> user's home directory is in /home/web.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="ssh">Secure shell (SSH)</a></h4>
+<p>SSH access is setup on a non-standard port (15022) to improve security.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>SSH access using password</h5>
+<div class="pane pane-dev pane-leftmost">
+<h6>Dev</h6>
+<p>web only, then su to root or better sudo</p>
+</div><!-- /pane -->
+<div class="pane pane-staging-live">
+<h6>Staging/live</h6>
+<p>web only, then su to root</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<div class="row">
+<h5>SSH access using PKI</h5>
+<p class="h5">Public-private key pairs give excellent security and are a handy way to manage communication, both to your server and from it to other sites, such as <a href="http://www.github.com">github.com</a>. Every Devopera server and VM comes with a private-public key pair installed.  By copying out the private key and loading it on your local host machine, you can SSH to your server without being prompted to login (instructions for <a href="http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter9.html">Windows/Putty/Pageant</a>, <a href="http://mah.everybody.org/docs/ssh">Linux</a> and <a href="http://fplanque.com/dev/mac/secure-ssh-private-keys-on-mac-osx-10-5">Mac OS X</a>).</p>
+</div><!-- /row -->
+
+<div class="row">
+<h5>PKI key agent</h5>
+<div class="pane pane-dev pane-leftmost">
+<h6>Dev</h6>
+<p>The private key is loaded automatically using a hardcoded passphrase.  This is very convenient for dev machines, because they can talk to other non-secure infrastructure as soon as started up.</p>
+</div><!-- /pane -->
+<div class="pane pane-staging-live">
+<h6>Staging/live</h6>
+Live and staging servers rely on the passphrase being entered the first time the <em>web</em> user logs on.  From that point on it's stored by the ssh-agent (until the next restart or refresh of ssh-agent) and used to authenticate the machine with other servers.  It does mean that live servers require the user to enter the key passphrase before they're able to start talking, but that additional security measure helps ensure they don't go rogue.</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<div class="row">
+<h5>Credentials</h5>
+<div class="pane pane-dev-staging pane-leftmost">
+<h6>Dev/staging</h6>
+<p><em>web</em> user password: admLn**<br />
+<em>root</em> user password: devopera<br />
+Key passphrase: admLn**</p>
+</div><!-- /pane -->
+<div class="pane pane-live">
+<h6>Live</h6>
+<p>All initial usernames and passwords for our live builds are supplied to you by email at the time of delivery.</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<div class="row">
+<h5>SFTP access</h5>
+<p class="h5">Secure File Transfer Protocol (SFTP) is also enabled by the SSH daemon.  While almost all command-line versions of the SSH client support port (-p) and user@host settings, some older versions of SFTP don't.  However you can configure all the settings (port, user, host, even forwarding) in ~/.ssh/config which <a href="http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/">simplifies your command line</a> (ssh <hostname> or sftp <hostname>).</p>
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="selinux">Security-Enhanced Linux (SELinux)</a></h4>
+<p>SELinux is enabled and set to enforcing for both dev and live machine types.  All services described here are configured to work with SELinux in their current configurations.  While many sysadmins choose to disable SELinux, we prefer to start with the most secure setup we know how to create and let you make decisions about how you want to relax it.  Please see later notes on how to maintain the security of your devopera servers.</p>
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="stdtools">Standard tools</a></h4><div style="clear: both;"></div>
+<h5>NTP</h5>
+<p>Network Time Protocol is used to synchronise this machine's time with network-based time servers.</p>
+<h5>Compass</h5>
+<div class="pane pane-dev-staging pane-leftmost">
+<h6>Dev/staging</h6>
+<p><a href="http://compass-style.org/">Compass</a> is an open-source CSS Authoring Framework, mainly used to compile SASS into CSS.</p>
+</div><!-- /pane -->
+<div class="pane pane-live">
+<h6>Live</h6>
+<p>Dev tools are not installed on live servers by default.</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="vcs">Version control systems (VCS)</a></h4><div style="clear: both;"></div>
+<h5>Git/Subversion repos</h5>
+<p>Git and subversion are setup.  Many applications are available from repositories.  These applications are organised in the /var/www directory by the VCS they use and the server from which they are sourced:<br />
+e.g. /var/www/git/github.com/my_git_repo</p>
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="samba">Samba</a></h4>
+<div class="pane pane-dev pane-leftmost">
+<h6>Dev</h6>
+<p>Samba shares are setup for the <em>web</em> user's home directory and <em>/var/www</em>.  Each samba share is configured to create and modify files with a certain set of permissions: read-write for <em>web</em> and read-only for <em>www-data</em>.</p>
+<p>No matter how diligent your are, you may find certain programs set different permissions so a bit of chmod'ing is often required!  To access samba using Windows file sharing, just connect to:<br />
+\\&lt;ip address&gt;<br />
+or<br />
+\\&lt;machine alias&gt;<br />
+if you've set one up.</p>
+</div><!-- /pane -->
+<div class="pane pane-staging-live">
+<h6>Staging/live</h6>
+<p>We don't encourage using samba for access to live machines.  While it can be enabled and port-forwarded over SSH securely, we recommend using a VCS such as git/svn for code deployment and SSH/SFTP or SCP to send files to the server.</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<div class="row">
+<h5><span class="cred">Credentials</span></h5>
+<div class="pane pane-dev pane-leftmost">
+<h6>Dev</h6>
+<p>The <em>web</em> user account has a corresponding but independent Samba user (web) with initial password 'admLn**'.  Usernames and passwords are case sensitive.<br /><br />
+Samba username: web<br />
+Samba password: admLn**</p>
+</div><!-- /pane -->
+<div class="pane pane-staging-live">
+<h6>Staging/Live</h6>
+<p>The Samba service is not turned on by default for live servers or their corresponding staging peers.  It's for security.</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="firewall">Firewall</a></h4>
+<div class="pane pane-dev pane-leftmost">
+<h6>Dev</h6>
+<h7>iptables</h7>
+<p>We restrict only the incoming port list to those services that are available.  For dev machines, your environment may be properly secured behind a firewall, so you could disable the VM's firewall by running <em>sudo service iptables stop</em></p>
+</div><!-- /pane -->
+<div class="pane pane-staging-live">
+<h6>Staging/live</h6>
+<p>Live servers typically run in exposed environments or on open networks, hence our firewall policy is a lot more involved for staging VMs or live builds.</p>
+<h7>ConfigServer Firewall (csf) and Login Failure Daemon (lfd)</h7>
+<p><a href="http://configserver.com/cp/csf.html">ConfigServer Firewall</a> is setup to protect both incoming and outgoing ports.  If you want to do install new services, you must open the necessary ports in <em>/etc/csf/csf.conf</em> and ask CSF to reload them.</p>
+<h7>rkhunter</h7>
+<p><a href="http://rkhunter.sourceforge.net/">RootKit hunter</a> is designed to identify binaries that have been corrupted with intent to compromise a server.  To run rkhunter manually (non-interactive):<br />
+/usr/bin/rkhunter -c -sk<br />
+After updating any of the monitored binaries, you'll need to tell rkhunter to update its database in order to avoid false positives:<br />
+/usr/bin/rkhunter --propupd<br />
+Finally, if you receive rkhunter's 'something has changed' email (that reads "Please inspect this machine, because it may be infected."), we recommend looking at the logs (in /var/log/rkhunter) to understand what triggered it.
+</p>
+<h7>maldet</h7>
+<p><a href="http://www.rfxn.com/projects/linux-malware-detect/">Linux Malware Detect</a> looks for malware on a server.</p>
+</div><!-- /pane -->
+</div><!-- /row -->
+
+<div class="row">
+<h4><a name="dns">DNS</a></h4>
+<div class="pane pane-dev pane-leftmost">
+<h6>Dev</h6>
+<p>Currently dev machines do not offer local DNS support, but it is planned.  For now, you can always put records in your /etc/hosts file, which under Windows lives in /Windows/system32/drivers/etc/hosts.</p>
+</div><!-- /pane -->
+<div class="pane pane-staging-live">
+<h6>Staging/live</h6>
+<p>DNS is not configured for live servers as the domain name resolution system was not really designed for web servers to host their own DNS records.  We recommend using a registrar that provides DNS management services, like <a href="http://www.domainmonster.com">Domainmonster.com</a> who we use.</p>
+</div><!-- /pane -->
+</div><!-- /row --></div></div></div><div class="field field-name-field-installed-modules field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="../../../../taxonomy/term/5.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">docommon</a></div><div class="field-item odd"><a href="../../../../taxonomy/term/7.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">domotd</a></div><div class="field-item even"><a href="../../../../taxonomy/term/9.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">dopki</a></div><div class="field-item odd"><a href="../../../../taxonomy/term/10.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">dopostfix</a></div><div class="field-item even"><a href="../../../../taxonomy/term/11.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">dorepos</a></div><div class="field-item odd"><a href="../../../../taxonomy/term/12.1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">dosamba</a></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+<h3>General information</h3>
+<div id="node-40" class="node node-page view-mode-full clearfix" about="/content/general-vm-information" typeof="foaf:Document">
+
+  
+        <h2 class="node-title"><a href="../../../40.html">General VM information</a></h2>
+    <span property="dc:title" content="General VM information" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>For more information on how to use the virtual application (VM) you've downloaded:<br />
+<a href="../../../39.html">Using a Devopera VM</a></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+<div class="action" style="margin: 2.0em 0 1.0em 0;">
+  <div class="action-line action-line-notlast">
+    <p class="action-button action-download">
+      <a href="http://files.devopera.com/vms/pub/doco6-d7r011-dev.tar.gz" onClick="_gaq.push(['_trackEvent', 'VM', 'Download (from action)', 'VM doco6-d7-dev [011]']);"><img src="../../../../sites/all/themes/devop/extra-images/download-vm-button.jpg" alt="Download a free Devopera VM" /></a>
+    </p>
+    <p class="action-para">
+      Download a free CentOS 6 development VM to get started with Drupal right away<br />
+      <span class="subline">doco6-d7r011-dev.tar.gz (964.3MB)</span>
+    </p>
+    <div class="clear"></div>
+   </div>
+  <div class="action-line action-line-notlast">
+    <p class="action-button action-download">
+      <a href="http://files.devopera.com/vms/pub/dobu12-d7r002-dev.tar.gz" onClick="_gaq.push(['_trackEvent', 'VM', 'Download (from action)', 'VM doco6-d7-dev [011]']);"><img src="../../../../sites/all/themes/devop/extra-images/download-vm-button.jpg" alt="Download a free Devopera VM" /></a>
+    </p>
+    <p class="action-para">
+      Download a free Ubuntu 12.04 development VM to get started with Drupal right away<br />
+      <span class="subline">dobu12-d7r002-dev.tar.gz (1582.9MB)</span>
+    </p>
+    <div class="clear"></div>
+   </div>
+
+  <!-- append purchase call to action -->
+  <div class="action-line">
+    <p class="action-button action-buynow">
+      <a href="../../../35.html"><img src="../../../../sites/all/themes/devop/extra-images/buy-now-button.jpg" alt="Let us install Drupal on your server for you" /></a>
+    </p>
+    <p class="action-para">
+      Let us configure your Drupal server
+      for &pound;0 <span class="price-suffixes"></span>    </p>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<!-- append header buttons, for fade in -->
+<div class="vm-header-buttons" id="selectos">
+  <ul class="tabs primary clearfix">
+    <li class="active">
+      <a class="active tab-selectos" href="view.html#" id="tab-selectos_centos6">
+        <span class="tab">CentOS 6</span><span class="element-invisible">(active tab)</span>      </a>
+    </li>
+    <li class="">
+      <a class=" tab-selectos" href="view.html#" id="tab-selectos_ubuntu1204">
+        <span class="tab">Ubuntu 12.04</span>      </a>
+    </li>
+  </ul>
+
+  <div class="active pane" id="pane-selectos_centos6">
+    <div class="download-button">
+    <a href="http://files.devopera.com/vms/pub/doco6-d7r011-dev.tar.gz" onClick="_gaq.push(['_trackEvent', 'VM', 'Download (from header)', 'VM doco6-d7-dev [011]']);">
+      <span class="main">Download Now</span>
+      <span class="sub">CentOS 6 VM (doco6-d7-dev.tar.gz)</span>
+    </a>
+    </div>
+    
+    <div class="vagrant-box">
+      <p>Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:</p>
+      <input type="text" value="vagrant box add doco6-d7-dev http://devopera.com/node/14/download/centos6" readonly="readonly" />
+      <span id="copy-button" class="js-zeroclipboard" data-clipboard-text="http://devopera.com/node/14/download/centos6" data-copied-hint="copied to clipboard" title="copy to clipboard">...</span>
+    </div>
+  </div>
+  <div class=" pane" id="pane-selectos_ubuntu1204">
+    <div class="download-button">
+    <a href="http://files.devopera.com/vms/pub/dobu12-d7r002-dev.tar.gz" onClick="_gaq.push(['_trackEvent', 'VM', 'Download (from header)', 'VM dobu12-d7-dev [002]']);">
+      <span class="main">Download Now</span>
+      <span class="sub">Ubuntu 12.04 VM (dobu12-d7-dev.tar.gz)</span>
+    </a>
+    </div>
+    
+    <div class="vagrant-box">
+      <p>Devopera VMs are Vagrant-compatible base boxes.  To download from the command line:</p>
+      <input type="text" value="vagrant box add dobu12-d7-dev http://devopera.com/node/14/download/ubuntu1204" readonly="readonly" />
+      <span id="copy-button" class="js-zeroclipboard" data-clipboard-text="http://devopera.com/node/14/download/ubuntu1204" data-copied-hint="copied to clipboard" title="copy to clipboard">...</span>
+    </div>
+  </div>
+</div>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+          </div></section><!-- /.section, /#content -->
+
+    
+    
+  </div></div><!-- /#main, /#main-wrapper -->
+
+  
+</div></div><!-- /#page, /#page-wrapper -->
+<div class="closure">
+    <div class="region region-bottom">
+    <div id="block-views-seven-recent-articles-block-1" class="block block-views first odd">
+
+        <h2 class="block-title">Recent Articles</h2>
+    
+  <div class="content">
+    <div class="view view-seven-recent-articles view-id-seven_recent_articles view-display-id-block_1 view-dom-id-0d2d8996b6d30fcee27525165302601c">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="../../../73.html">Security is a hard problem</a></h4>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">published </span>    <span class="field-content"><em class="placeholder">3 years 1 month</em> ago</span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="../../../74.html">Server maintenance, analysis and troubleshooting tools</a></h4>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">published </span>    <span class="field-content"><em class="placeholder">3 years 2 months</em> ago</span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="../../../72.html"><img typeof="foaf:Image" src="../../../../sites/52_devop7/files/styles/seven-recent-articles/public/field/image/relocated_pid_file.jpg%3Fitok=dw-qc9h-" width="50" height="50" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="../../../72.html">Relocated pidfile causing httpd to start but not stop</a></h4>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">published </span>    <span class="field-content"><em class="placeholder">3 years 4 months</em> ago</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+</div><!-- /.block -->
+<div id="block-multiblock-1" class="block block-multiblock block-system block-system-main-menu-instance even">
+
+        <h2 class="block-title">Navigation</h2>
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../../../../index.html">Home</a></li>
+<li class="expanded"><a href="../../../../applications.html" title="">Applications</a><ul class="menu"><li class="first leaf"><a href="../../../8.html">Django</a></li>
+<li class="leaf"><a href="../../../14.html">Drupal 7</a></li>
+<li class="leaf"><a href="../../../54.html">Nagios</a></li>
+<li class="last leaf"><a href="../../../66.html">Redmine</a></li>
+</ul></li>
+<li class="expanded"><a href="../../../../stacks.html" title="">Stacks</a><ul class="menu"><li class="first last leaf"><a href="../../../63.html">LAMP</a></li>
+</ul></li>
+<li class="leaf"><a href="../../../../blog.html" title="Read our Latest News.">Blog</a></li>
+<li class="last leaf"><a href="../../../../contact.html" title="Get in touch with us.">Contact us</a></li>
+</ul>  </div>
+
+</div><!-- /.block -->
+<div id="block-menu-menu-other-things" class="block block-menu odd">
+
+        <h2 class="block-title">Site</h2>
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../../../../user.html" title="">Login</a></li>
+<li class="last leaf"><a href="../../../42.html" title="">Help</a></li>
+</ul>  </div>
+
+</div><!-- /.block -->
+<div id="block-widgets-s-socialmedia-profile-default" class="block block-widgets even">
+
+        <h2 class="block-title">Follow Us</h2>
+    
+  <div class="content">
+    <div id="widgets-element-socialmedia_profile-default" class="widgets widgets-set widgets-set-horizontal widgets-style-horizontal"><div id="widgets-element-socialmedia_socialmedia-twitter-profile-button" class="widgets widgets-element widgets-element-horizontal widgets-style-horizontal"><a href="http://twitter.com/lightenna" title="Visit lightenna on Twitter" target="_blank"><img src="../../../../sites/all/modules/contrib/socialmedia/icons/levelten/glossy/32x32/twitter.png" alt="Twitter icon" ></a></div><div id="widgets-element-socialmedia_socialmedia-facebook-profile-button" class="widgets widgets-element widgets-element-horizontal widgets-style-horizontal"><a href="http://www.facebook.com/lightenna" title="Visit lightenna on Facebook" target="_blank"><img src="../../../../sites/all/modules/contrib/socialmedia/icons/levelten/glossy/32x32/facebook.png" alt="Facebook icon"></a></div><div id="widgets-element-socialmedia_socialmedia-linkedin-profile-button" class="widgets widgets-element widgets-element-horizontal widgets-style-horizontal"><a href="http://www.linkedin.com/company/lightenna" title="Visit lightenna on LinkedIn" target="_blank"><img src="../../../../sites/all/modules/contrib/socialmedia/icons/levelten/glossy/32x32/linkedin.png" alt="LinkedIn icon" ></a></div><div id="widgets-element-socialmedia_socialmedia-slideshare-profile-button" class="widgets widgets-element widgets-element-horizontal widgets-style-horizontal"><a href="http://www.slideshare.net/lightenna/" title="Visit lightenna on SlideShare" target="_blank"><img src="../../../../sites/all/modules/contrib/socialmedia/icons/levelten/glossy/32x32/slideshare.png" alt="SlideShare icon" ></a></div><div id="widgets-element-socialmedia_socialmedia-youtube-profile-button" class="widgets widgets-element widgets-element-horizontal widgets-style-horizontal"><a href="http://www.youtube.com/lightenna" title="Visit lightenna on YouTube" target="_blank"><img src="../../../../sites/all/modules/contrib/socialmedia/icons/levelten/glossy/32x32/youtube.png" alt="YouTube icon" ></a></div><div id="widgets-element-socialmedia_socialmedia-rss-feed-button" class="widgets widgets-element widgets-element-horizontal widgets-style-horizontal"><a href="../../../../blog.xml" title="Subscribe to  via RSS" target="_blank"><img src="../../../../sites/all/modules/contrib/socialmedia/icons/levelten/glossy/32x32/rss.png" alt="RSS icon" ></a></div><div class="widgets-clear"></div></div>  </div>
+
+</div><!-- /.block -->
+<div id="block-block-7" class="block block-block odd">
+
+      
+  <div class="content">
+    <p>Copyright 2012 <a href="http://www.lightenna.com">Lightenna Ltd</a> <a href="view.html#" class="link-top right">Back to Top</a></p>
+<p><a href="view.html#" class="link-top top-link-block">Back to Top</a></p>
+  </div>
+
+</div><!-- /.block -->
+<div id="block-block-9" class="block block-block last even">
+
+      
+  <div class="content">
+    <!-- UserVoice JavaScript SDK (only needed once on a page) --><script>
+<!--//--><![CDATA[// ><!--
+(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/CpVAgwn1DcuaoNEQXHqPXQ.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()
+//--><!]]>
+</script><!-- A tab to launch the Classic Widget --><script>
+<!--//--><![CDATA[// ><!--
+
+UserVoice = window.UserVoice || [];
+UserVoice.push(['showTab', 'classic_widget', {
+  mode: 'feedback',
+  primary_color: '#00c5cc',
+  link_color: '#007dbf',
+  forum_id: 220122,
+  tab_label: 'Feedback',
+  tab_color: '#00c9cc',
+  tab_position: 'middle-right',
+  tab_inverted: false
+}]);
+
+//--><!]]>
+</script>  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+</div>
+       
+  </div>	
+</body>
+</html>
